@@ -29,6 +29,9 @@ img#logo {
   opacity: 0.5;
 }*/
 
+location {
+  font-weight: bold;
+}
 
 article {
   align-items: center;
