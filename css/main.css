@@ -52,18 +52,12 @@ article {
   border-bottom: 1px solid #ddd;
 }
 
-.lead {
-  font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 60px;
-}
-
 .title {
   text-align: center;
 }
 
 .title h1 {
-  margin: 2em 0 1em 0;
+  margin: 1em 0 0.5em 0;
   color: #fff;
   border-bottom: none;
   font-size: 9em;
@@ -74,12 +68,18 @@ article {
   color: #fff;
 }
 
+.lead {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 60px;
+}
+
 .poster-entry {
   padding: 2em 0 2em 0;
 }
 
 .description {
-
+  font-size: 16px;
 }
 
 h1 {
