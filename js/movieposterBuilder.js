@@ -11,7 +11,7 @@ var posters = {
       "url" : "images/dziecko_rosemary.svg"
     },
     {
-      "title" : { "PL" : "W Mroku Nocy", "EN" : "Night Moves", "GER" : "Die heiße Spur" },
+      "title" : { "PL" : "W mroku nocy", "EN" : "Night Moves", "GER" : "Die heiße Spur" },
       "director": "Arthur Penn",
       "artist": "",
       "year" : 1975,
@@ -31,7 +31,7 @@ var posters = {
       "url": "images/zabity_na_smierc.svg"
     },
     {
-      "title" : { "PL" : "Imie Rozy", "EN" : "The Name of the Rose", "GER" : "Im Namen der Rose", "IT" : "Il nome della rosa" },
+      "title" : { "PL" : "Imię róży", "EN" : "The Name of the Rose", "GER" : "Im Namen der Rose", "IT" : "Il nome della rosa" },
       "director": "Jean-Jacques Annaud",
       "artist": "",
       "year" : 1986,
@@ -41,7 +41,7 @@ var posters = {
       "url": "images/imie_rozy.svg",
     },
     {
-      "title" : { "PL" : "Chora z Milosci", "EN" : "Malady of Love ", "GER" : "Krank vor Liebe", "FR" : "Maladie d'amour" },
+      "title" : { "PL" : "Chora z miłości", "EN" : "Malady of Love ", "GER" : "Krank vor Liebe", "FR" : "Maladie d'amour" },
       "director": "Jacques Deray",
       "artist": "",
       "year" : 1987,
@@ -91,7 +91,7 @@ var posters = {
       "url": "images/powrot_na_ziemie.svg",
     },
     {
-      "title" : { "PL" : "Szkoda Twoich Lez", "EN" : "Tears won't Help" },
+      "title" : { "PL" : "Szkoda twoich łez", "EN" : "Tears won't Help" },
       "director": "Lenartowicz Stanislaw",
       "artist": "",
       "year" : 1966,
@@ -101,7 +101,7 @@ var posters = {
       "url": "images/szkoda_twoich_lez.svg",
     },
     {
-      "title" : { "PL" : "Wierna Rzeky" },
+      "title" : { "PL" : "Wierna rzeka" },
       "director": "Tadeusz Chmielewski",
       "artist": "",
       "year" : 1983,
@@ -109,22 +109,45 @@ var posters = {
       "description" : "Wierna rzeka (film 1983) is a Polish historical film directed by Tadeusz Chmielewski. It was produced in 1983 and released in 1987.",
       "www" : "http://en.wikipedia.org/wiki/Wierna_rzeka_%281983_film%29",
       "url": "images/wierna_rzeky.svg",
+    },
+    {
+      "title" : { "PL" : "Anielska Diablica" },
+      "director": "Václav Matějka",
+      "artist": "",
+      "year" : 1983,
+      "size" : [100, 200],
+      "description" : "Ten film nie ma jeszcze zarysu fabuły.",
+      "www" : "http://www.filmweb.pl/film/Anielska+diablica-1983-188894",
+      "url": "images/anielska_diablica.svg",
+    },
+    {
+      "title" : { "PL" : "Bez końca", "EN" : "No End" },
+      "director": "Krzysztof Kieślowski",
+      "artist": "",
+      "year" : 1985,
+      "size" : [200, 100],
+      "description" : "No End is a 1985 film directed by Krzysztof Kieślowski and starring Grażyna Szapołowska, Maria Pakulnis, and Aleksander Bardini. The film is about the state of Martial law in Poland after the banning of the trade union Solidarity in 1981. Kieślowski worked with several regular collaborators for the first time on No End.",
+      "www" : "http://en.wikipedia.org/wiki/No_End_%28film%29",
+      "url": "images/bez_konza.svg",
     }]
 };
 
 posters.display = function() {
-  for (poster in posters.posters) {
+  for (var poster in posters.posters) {
     $("#poster").append(HTMLposterStart);
     // var formattedPosterTitle = HTMLposterTitle.replace("%data%", posters.posters[poster].title);
     // $(".poster-entry:last").append(formattedPosterTitle);
     // var formattedPosterDates = HTMLposterDates.replace("%data%", posters.posters[poster].dates);
     // $(".poster-entry:last").append(formattedPosterDates);
     var formattedPosterImageURL = HTMLposterImageURL.replace("%data%", posters.posters[poster].url);
+    formattedPosterImageURL = formattedPosterImageURL.replace("%width%", posters.posters[poster].size[1] * 6);
     $(".poster-entry:last").append(formattedPosterImageURL);
     var formattedPosterCaption = HTMLposterCaption.replace("%data%", posters.posters[poster].title['PL'] + " (" + posters.posters[poster].year + "; " + " " + posters.posters[poster].size[0] + "x" + posters.posters[poster].size[1] + ")");
     $(".poster-entry:last").append(formattedPosterCaption);
     var formattedPosterDescription = HTMLposterDescription.replace("%data%", posters.posters[poster].description);
     $(".poster-entry:last").append(formattedPosterDescription);
+    var formattedPosterWWW = HTMLposterWWW.replace("#", posters.posters[poster].www);
+    $(".poster-entry:last").append(formattedPosterWWW);
     }
 };
 

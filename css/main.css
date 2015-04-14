@@ -111,6 +111,7 @@ p {
 
 a {
   color: #3d85c6;
+  text-decoration: none;
 }
 
 p.borderBelow {
