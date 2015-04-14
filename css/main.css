@@ -19,7 +19,15 @@ body {
 
 header {
   text-align: center;
-  margin: 0 0 4em 0;
+  margin: 0;
+}
+
+hero {
+  width: 100%;
+  position: relative;
+  background-image: url("../images/camera.svg");
+  background-size: cover;
+  height: 1000px;
 }
 
 img#logo {
@@ -50,6 +58,22 @@ article {
   padding-bottom: 60px;
 }
 
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  margin: 2em 0 1em 0;
+  color: #fff;
+  border-bottom: none;
+  font-size: 9em;
+}
+.title h2 {
+  border-bottom: none;
+  font-weight: bold;
+  color: #fff;
+}
+
 .poster-entry {
   padding: 2em 0 2em 0;
 }
@@ -74,8 +98,8 @@ h2 {
   border-bottom: 1px solid #ddd;
   color: #bb021e;
   font-size: 5vw;
-  margin: 0 0 1em 0;
-  padding: 0 0 1em 0;
+  margin: 0.5em 0 1em 0;
+  padding: 0.5em 0 1em 0;
 }
 
 h4 {
