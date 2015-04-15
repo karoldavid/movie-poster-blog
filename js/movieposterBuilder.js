@@ -129,6 +129,26 @@ var posters = {
       "description" : "No End is a 1985 film directed by Krzysztof Kieślowski and starring Grażyna Szapołowska, Maria Pakulnis, and Aleksander Bardini. The film is about the state of Martial law in Poland after the banning of the trade union Solidarity in 1981. Kieślowski worked with several regular collaborators for the first time on No End.",
       "www" : "http://en.wikipedia.org/wiki/No_End_%28film%29",
       "url": "images/bez_konza.svg",
+    },
+    {
+      "title" : { "PL" : "Bluszcz" },
+      "director": "Hanka Wlodarczyk",
+      "artist": "",
+      "year" : 1982,
+      "size" : [200, 100],
+      "description" : "Trzydziestoletnia Kinga właśnie rozwiodła się z mężem i samotnie wychowuje córkę. Nowy romans nie układa się po jej myśli, coraz bardziej nudzi ją też praca. Sfrustrowana kobieta bierze urlop, aby spełnić swe marzenie i napisać książkę.",
+      "www" : "http://pl.wikipedia.org/wiki/Bluszcz_%28film%29",
+      "url": "images/bluszcz.svg",
+    },
+    {
+      "title" : { "PL" : "Uczta Babette", "EN" : "Babette's Feast","GER" : "Babets Fest", "DK" : "Babettes gæstebud"},
+      "director": "Gabriel Axel",
+      "artist": "",
+      "year" : 1987,
+      "size" : [100, 200],
+      "description" : "Babette's Feast (Danish: Babettes gæstebud) is a 1987 Danish drama film directed by Gabriel Axel. The film's screenplay was written by Axel based on the story by Isak Dinesen (Karen Blixen). Produced by Just Betzer, Bo Christensen, and Benni Korzen with funding from the Danish Film Institute, Babette's Feast was the first Danish cinema film of a Blixen story. It was also the first Danish film to win the Academy Award for Best Foreign Language Film. The film premiered in the Un Certain Regard section of the 1987 Cannes Film Festival.",
+      "www" : "http://en.wikipedia.org/wiki/Babette's_Feast",
+      "url": "images/babets_fest.svg",
     }]
 };
 
