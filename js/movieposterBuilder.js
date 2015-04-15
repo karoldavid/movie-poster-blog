@@ -188,8 +188,8 @@ posters.addAltText = function() {
     $(document).ready(function() {
       $('img').each(function(){
         var $img = $(this),
-            fileName = $img.attr('data-src'),
-            imageName = fileName.substring(7, fileName.lastIndexOf('.'));
+            filename = $img.attr('data-src') || $img.attr('src'),
+            imageName = filename.substring(7, filename.lastIndexOf('.'));
         $img.attr('alt', imageName);
       });
   });
