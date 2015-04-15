@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Lato', sans-serif;
-  margin: 3vh 0 3vh 0;
+  margin: 1vh 0 1vh 0;
   text-align: center;
   background-color: none;
 }
@@ -31,7 +31,7 @@ hero {
 }
 
 img#logo {
-  margin: 0 auto 0.5em auto;
+  margin: 0 auto 0 auto;
 }
 
 /*header:hover img#logo {
