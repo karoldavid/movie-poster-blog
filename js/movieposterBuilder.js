@@ -153,6 +153,7 @@ var posters = {
 };
 
 posters.display = function() {
+  "use strict";
   for (var poster in posters.posters) {
     $("#poster").append(HTMLposterStart);
     // var formattedPosterTitle = HTMLposterTitle.replace("%data%", posters.posters[poster].title);
@@ -171,4 +172,19 @@ posters.display = function() {
     }
 };
 
+
+//strips image name from filename and adds it as alt text to all images
+posters.addAltText = function() {
+    "use strict";
+    $(document).ready(function() {
+      $('img').each(function(){
+        var $img = $(this),
+            fileName = $img.attr('data-src'),
+            imageName = fileName.substring(7, fileName.lastIndexOf('.'));
+        $img.attr('alt', imageName);
+      });
+  });
+};
+
 posters.display();
+posters.addAltText();

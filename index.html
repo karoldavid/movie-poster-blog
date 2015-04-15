@@ -54,6 +54,18 @@
 
   <script src="js/movieposterBuilder.js"></script>
   <script>
+    // lazy load images
+    function init() {
+      var imgDefer = document.getElementsByTagName('img');
+      for (var i=0; i<imgDefer.length; i++) {
+        if(imgDefer[i].getAttribute('data-src')) {
+          imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+        }
+      }
+    }
+    window.onload = init;
+
+    // build dom
     if(document.getElementsByClassName('poster-entry').length === 0) {
       document.getElementById('poster').style.display = 'none';
     }
