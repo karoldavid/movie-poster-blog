@@ -149,6 +149,16 @@ var posters = {
       "description" : "Babette's Feast (Danish: Babettes gæstebud) is a 1987 Danish drama film directed by Gabriel Axel. The film's screenplay was written by Axel based on the story by Isak Dinesen (Karen Blixen). Produced by Just Betzer, Bo Christensen, and Benni Korzen with funding from the Danish Film Institute, Babette's Feast was the first Danish cinema film of a Blixen story. It was also the first Danish film to win the Academy Award for Best Foreign Language Film. The film premiered in the Un Certain Regard section of the 1987 Cannes Film Festival.",
       "www" : "http://en.wikipedia.org/wiki/Babette's_Feast",
       "url": "images/babets_fest.svg",
+    },
+    {
+      "title" : { "PL" : "Ostatni Etap", "EN" : "The Last Stage","GER" : "Die letzte Etappe" },
+      "director": "Wanda Jakubowska",
+      "artist": "",
+      "year" : 1947,
+      "size" : [200, 100],
+      "description" : "The Last Stage (Pl. Ostatni etap) was a 1947 Polish feature film directed and co-written by Wanda Jakubowska, depicting her experiences in the Auschwitz concentration camp during World War II. One feature that makes the movie very unusual is the fact that, although all actors are Poles, the ones depicting German guards speak German. This was an additional effort for the actors, but adds to the authenticity and atmosphere. The film was one of the earliest cinematic efforts to describe the Holocaust, and it is still quoted extensively by succeeding directors, including Steven Spielberg in Schindler's List.",
+      "www" : "http://en.wikipedia.org/wiki/The_Last_Stage",
+      "url": "images/ostatni_etap.svg",
     }]
 };
 
@@ -171,7 +181,6 @@ posters.display = function() {
     $(".poster-entry:last").append(formattedPosterWWW);
     }
 };
-
 
 //strips image name from filename and adds it as alt text to all images
 posters.addAltText = function() {
