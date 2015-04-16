@@ -62,32 +62,28 @@
           imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
         }
       }
+      // shrink header on scroll
+      window.addEventListener('scroll', function(e){
+          var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+              shrinkOn = 300,
+              header = document.querySelector("header");
+          if (distanceY > shrinkOn) {
+              classie.add(header,"smaller");
+          } else {
+              if (classie.has(header,"smaller")) {
+                  classie.remove(header,"smaller");
+              }
+          }
+      });
     }
     window.onload = init;
 
-    // build dom
+    // hide dom elements if undefined
     if(document.getElementsByClassName('poster-entry').length === 0) {
       document.getElementById('poster').style.display = 'none';
     }
 
   </script>
-  <!-- <script>
-      function init() {
-          window.addEventListener('scroll', function(e){
-              var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                  shrinkOn = 300,
-                  header = document.querySelector("header");
-              if (distanceY > shrinkOn) {
-                  classie.add(header,"smaller");
-              } else {
-                  if (classie.has(header,"smaller")) {
-                      classie.remove(header,"smaller");
-                  }
-              }
-          });
-      }
-      window.onload = init();
-  </script> -->
 
 </body>
 </html>
