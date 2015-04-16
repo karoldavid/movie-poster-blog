@@ -27,7 +27,7 @@
 
 <body>
   <header>
-    <img id="logo" class="cmn-t-pulse" width="50" height="50" src="images/logo.svg">
+    <img id="logo" class="cmn-t-pulse" src="images/logo.svg">
   </header>
   <hero>
     <lead class="title">
@@ -52,6 +52,7 @@
   </footer>
 
   <script src="js/movieposterBuilder.js"></script>
+  <script src="js/classie.js"></script>
   <script>
     // lazy load images
     function init() {
@@ -68,7 +69,25 @@
     if(document.getElementsByClassName('poster-entry').length === 0) {
       document.getElementById('poster').style.display = 'none';
     }
+
   </script>
+  <!-- <script>
+      function init() {
+          window.addEventListener('scroll', function(e){
+              var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                  shrinkOn = 300,
+                  header = document.querySelector("header");
+              if (distanceY > shrinkOn) {
+                  classie.add(header,"smaller");
+              } else {
+                  if (classie.has(header,"smaller")) {
+                      classie.remove(header,"smaller");
+                  }
+              }
+          });
+      }
+      window.onload = init();
+  </script> -->
 
 </body>
 </html>
