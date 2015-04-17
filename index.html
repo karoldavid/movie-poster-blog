@@ -28,6 +28,12 @@
 <body>
   <header>
     <img id="logo" class="cmn-t-pulse" src="images/logo.svg">
+    <div id="headerSocial">
+      <ul>
+        <li><a class="zocial-email" href="mailto:k.zysk@zoho.com"></a></li>
+        <li><a class="zocial-twitter" href="https://twitter.com/karoldawid"></a></li>
+      </ul>
+    </div>
   </header>
   <hero>
     <lead class="title">
@@ -42,7 +48,7 @@
   </article>
 
   <footer>
-    <div id="social">
+    <div id="footerSocial">
       <ul>
         <li class="zocial-email"><a href="mailto:k.zysk@zoho.com">email</a></li>
         <li class="zocial-github"><a href="https://github.com/karoldavid?tab=repositories">github</a></li>
@@ -62,16 +68,18 @@
           imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
         }
       }
-      // shrink header on scroll
+      // shrink header on scroll, shrink logo and add social icons 
       window.addEventListener('scroll', function(e){
           var distanceY = window.pageYOffset || document.documentElement.scrollTop,
               shrinkOn = 300,
               header = document.querySelector("header");
           if (distanceY > shrinkOn) {
               classie.add(header,"smaller");
+              document.getElementById("headerSocial").style.display = 'block';
           } else {
               if (classie.has(header,"smaller")) {
                   classie.remove(header,"smaller");
+                  document.getElementById("headerSocial").style.display = 'none';
               }
           }
       });
