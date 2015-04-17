@@ -159,6 +159,26 @@ var posters = {
       "description" : "The Last Stage (Pl. Ostatni etap) was a 1947 Polish feature film directed and co-written by Wanda Jakubowska, depicting her experiences in the Auschwitz concentration camp during World War II. One feature that makes the movie very unusual is the fact that, although all actors are Poles, the ones depicting German guards speak German. This was an additional effort for the actors, but adds to the authenticity and atmosphere. The film was one of the earliest cinematic efforts to describe the Holocaust, and it is still quoted extensively by succeeding directors, including Steven Spielberg in Schindler's List.",
       "www" : "http://en.wikipedia.org/wiki/The_Last_Stage",
       "url": "images/ostatni_etap.svg",
+    },
+    {
+      "title" : { "PL" : "Brzuch Architekta", "EN" : "The Belly of an Architect","GER" : "Der Bauch des Architekten" },
+      "director": "Peter Greenaway",
+      "artist": "",
+      "year" : 1987,
+      "size" : [200, 100],
+      "description" : "The Belly of an Architect is a 1987 film drama written and directed by Peter Greenaway, featuring original music by Glenn Branca and Wim Mertens. The movie stars Brian Dennehy and Chloe Webb and contains numerous references to the work of the 18th century French architect Étienne-Louis Boullée. It was nominated for the Palme d'Or (Golden Palm) award at the 1987 Cannes Film Festival.",
+      "www" : "http://en.wikipedia.org/wiki/The_Belly_of_an_Architect",
+      "url": "images/brzuch_architekta.svg",
+    },
+    {
+      "title" : { "PL" : "Magiczny Warkocz", "EN" : "The Magic Braid /Sen Blain","GER" : "Der Zauberzopf der Shaolin" },
+      "director": "Zien Zhang",
+      "artist": "",
+      "year" : 1986,
+      "size" : [200, 100],
+      "description" : "Magic Braid filmed the novel by Feng Tszitsaya (1942). The film tells about a rustic merchant soy bad Second owning family style battle scythe, which, due to circumstances became embroiled in a conflict with the underworld Tianjin.",
+      "www" : "http://www.imdb.com/title/tt0397625/combined",
+      "url": "images/magiczny_warkocz.svg",
     }]
 };
 
