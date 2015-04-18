@@ -141,7 +141,7 @@ var posters = {
       "url": "images/bluszcz.svg",
     },
     {
-      "title" : { "PL" : "Uczta Babette", "EN" : "Babette's Feast","GER" : "Babets Fest", "DK" : "Babettes gæstebud"},
+      "title" : { "PL" : "Uczta Babette", "EN" : "Babette's Feast", "GER" : "Babets Fest", "DK" : "Babettes gæstebud"},
       "director": "Gabriel Axel",
       "artist": "",
       "year" : 1987,
@@ -151,7 +151,7 @@ var posters = {
       "url": "images/babets_fest.svg",
     },
     {
-      "title" : { "PL" : "Ostatni Etap", "EN" : "The Last Stage","GER" : "Die letzte Etappe" },
+      "title" : { "PL" : "Ostatni Etap", "EN" : "The Last Stage", "GER" : "Die letzte Etappe" },
       "director": "Wanda Jakubowska",
       "artist": "",
       "year" : 1947,
@@ -161,7 +161,7 @@ var posters = {
       "url": "images/ostatni_etap.svg",
     },
     {
-      "title" : { "PL" : "Brzuch Architekta", "EN" : "The Belly of an Architect","GER" : "Der Bauch des Architekten" },
+      "title" : { "PL" : "Brzuch Architekta", "EN" : "The Belly of an Architect", "GER" : "Der Bauch des Architekten" },
       "director": "Peter Greenaway",
       "artist": "",
       "year" : 1987,
@@ -171,7 +171,7 @@ var posters = {
       "url": "images/brzuch_architekta.svg",
     },
     {
-      "title" : { "PL" : "Magiczny Warkocz", "EN" : "The Magic Braid /Sen Blain","GER" : "Der Zauberzopf der Shaolin" },
+      "title" : { "PL" : "Magiczny Warkocz", "EN" : "The Magic Braid /Sen Blain", "GER" : "Der Zauberzopf der Shaolin" },
       "director": "Zien Zhang",
       "artist": "",
       "year" : 1986,
@@ -179,6 +179,26 @@ var posters = {
       "description" : "Magic Braid filmed the novel by Feng Tszitsaya (1942). The film tells about a rustic merchant soy bad Second owning family style battle scythe, which, due to circumstances became embroiled in a conflict with the underworld Tianjin.",
       "www" : "http://www.imdb.com/title/tt0397625/combined",
       "url": "images/magiczny_warkocz.svg",
+    },
+    {
+      "title" : { "PL" : "Mucha", "EN" : "The Fly","GER" : "Die Fliege" },
+      "director": "David Cronenberg",
+      "artist": "",
+      "year" : 1986,
+      "size" : [200, 100],
+      "description" : "The Fly is a 1986 American science fiction horror film directed and co-written by David Cronenberg. Produced by Brooksfilms and distributed by 20th Century Fox, the film stars Jeff Goldblum, Geena Davis and John Getz. It is based loosely on George Langelaan's 1957 short story of the same name, which also formed the basis for the 1958 film. The score was composed by Howard Shore and the make-up effects were created by Chris Walas, who, along with makeup artist Stephan Dupuis won the Academy Award for Best Makeup.",
+      "www" : "http://en.wikipedia.org/wiki/The_Fly_%281986_film%29",
+      "url": "images/mucha.svg",
+    },
+    {
+      "title" : { "PL" : "Na Srebrnym Globie", "EN" : "On the Silver Globe", "GER" : "-" },
+      "director": "Andrzej Żuławski",
+      "artist": "",
+      "year" : 1988,
+      "size" : [200, 100],
+      "description" : "On the Silver Globe (Polish: Na srebrnym globie) is a Polish film premiered in 1988, directed by Andrzej Żuławski and adapted from a novel by Jerzy Żuławski.",
+      "www" : "http://en.wikipedia.org/wiki/On_the_Silver_Globe_%28film%29",
+      "url": "images/na_srebrnym_globie.svg",
     }]
 };
 
