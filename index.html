@@ -58,17 +58,20 @@
   </footer>
 
   <script src="js/movieposterBuilder.js"></script>
+  <script src="js/lazyLoad.js"></script>
   <script src="js/classie.js"></script>
   <script>
-    // lazy load images
+    $("img.lazy").lazyload({ effect : "fadeIn" });
+
     function init() {
-      var imgDefer = document.getElementsByTagName('img');
-      for (var i=0; i<imgDefer.length; i++) {
-        if(imgDefer[i].getAttribute('data-src')) {
-          imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-        }
-      }
-      // shrink header on scroll, shrink logo and add social icons 
+      // load deferred images
+      // var imgDefer = document.getElementsByTagName('img');
+      // for (var i=0; i<imgDefer.length; i++) {
+      //   if(imgDefer[i].getAttribute('data-src')) {
+      //     imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+      //   }
+      // }
+      // shrink header on scroll, shrink logo and add social icons
       window.addEventListener('scroll', function(e){
           var distanceY = window.pageYOffset || document.documentElement.scrollTop,
               shrinkOn = 300,
