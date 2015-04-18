@@ -12,7 +12,7 @@ body {
   margin: 0:
   padding: 0;
   width: 100%;
-
+  min-width: 320px;
 }
 
 body {
@@ -38,20 +38,21 @@ header {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
-   width: 100%;
-   height: 50px;
-   overflow: hidden;
-   position: fixed;
-   top: 0;
-   left: 0;
-   z-index: 999;
-   background-color: #d3d3d3;
-   -webkit-transition: height 0.3s;
-   -moz-transition: height 0.3s;
-   -ms-transition: height 0.3s;
-   -o-transition: height 0.3s;
-   transition: height 0.3s;
-   }
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #d3d3d3;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
 header img#logo {
   width: 50px;
   max-width: 50px;
@@ -85,6 +86,13 @@ hero {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+/*
+ *
+ * main
+ *
+ */
+
 
 location {
   font-weight: bold;
@@ -214,8 +222,6 @@ figure {
 
 #headerSocial {
   display: none;
-  float: right;
-  margin-right: 5%;
 }
 
 #headerSocial ul {
@@ -259,7 +265,16 @@ footer {
 }
 
 @media only screen and (max-width:600px) {
-  li {
+
+  .title h1 {
+    font-size: 6.5em;
+  }
+
+  .title h2 {
+    font-size: 3em;
+  }
+
+  #footerSocial li {
     display: block;
     padding: 20px 0;
   }
