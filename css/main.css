@@ -78,7 +78,7 @@ hero {
   /*-webkit-filter: saturate(3) opacity(0.7);*/
   width: 100%;
   height: auto;
-  background-image: url("../images/camera.svg");
+  background-image: url("../images/camera-big.jpeg");
   margin: 0;
   position: relative;
   background-size: cover;
@@ -263,19 +263,18 @@ footer {
 }
 
 @media only screen and (max-width:600px) {
-
+  hero {
+    background-image: url("../images/camera-small.jpeg");
+  }
   .title h1 {
-    font-size: 6.5em;
+    font-size: 5em;
   }
-
   .title h2 {
-    font-size: 3em;
+    font-size: 2em;
   }
-  
   h2 {
     font-size: 10vw;
   }
-
   #footerSocial li {
     display: block;
     padding: 20px 0;
