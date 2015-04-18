@@ -65,6 +65,7 @@ header img#logo {
 
 header.smaller {
   height: 30px;
+  opacity: 0.7;
 }
 
 header.smaller img#logo {
