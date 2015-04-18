@@ -78,13 +78,16 @@ hero {
   /*-webkit-filter: saturate(3) opacity(0.7);*/
   width: 100%;
   height: auto;
+
   background-image: url("../images/camera-big.jpeg");
   margin: 0;
-  position: relative;
+  /*position: relative;*/
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
 }
 
 /*
