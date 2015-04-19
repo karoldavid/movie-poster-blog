@@ -288,7 +288,7 @@ posters.addAltText = function() {
     $(document).ready(function() {
       $('img').each(function(){
         var $img = $(this),
-            filename = $img.attr('data-src') || $img.attr('src'),
+            filename = $img.attr('data-original') || $img.attr('src'),
             imageName = filename.substring(7, filename.lastIndexOf('.'));
         $img.attr('alt', imageName);
       });
