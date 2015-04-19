@@ -219,6 +219,46 @@ var posters = {
       "description" : "Someone to Watch Over Me is a 1987 romance crime thriller film starring Tom Berenger and Mimi Rogers and directed by Ridley Scott. The film's soundtrack includes the George and Ira Gershwin song from which the film takes its title, here sung by Sting, and Vangelis' 'Memories of Green', originally from Scott's Blade Runner.",
       "www" : "http://en.wikipedia.org/wiki/Someone_to_Watch_Over_Me_(film)",
       "url": "images/osaczona.jpeg"
+    },
+    {
+      "title" : { "PL" : "Planeta krawiec", "EN" : "The Planet 'tailor'", "GER" : "-" },
+      "director": "Jerzy Domaradzki",
+      "artist": "",
+      "year" : 1983,
+      "size" : [100, 200],
+      "description" : "Planeta Krawiec – polski film obyczajowy w reżyserii Jerzego Domaradzkiego z roku 1983. Przypowieść o prowincjonalnym krawcu, który marzył o gwiazdach. Film został oparty na autentycznej biografii Adama Giedrysa.",
+      "www" : "http://pl.wikipedia.org/wiki/Planeta_krawiec",
+      "url": "images/planeta_krawiec.jpeg"
+    },
+    {
+      "title" : { "PL" : "Ran", "EN" : "Ran", "GER" : "-" },
+      "director": "Akira Kurosawa",
+      "artist": "",
+      "year" : 1985,
+      "size" : [200, 100],
+      "description" : "Ran (Chinese and Japanese for 'rebellion', 'uprising' or 'revolt', or to mean 'disturbed' or 'confused') is a 1985 Japanese-French jidaigeki epic film directed and co-written by Akira Kurosawa. The film stars Tatsuya Nakadai as Hidetora Ichimonji, an aging Sengoku-era warlord who decides to abdicate as ruler in favor of his three sons. The story is based on legends of the daimyo Mōri Motonari, as well as on the Shakespearean tragedy King Lear.",
+      "www" : "http://en.wikipedia.org/wiki/Ran_(film)",
+      "url": "images/ran.jpeg"
+    },
+    {
+      "title" : { "PL" : "Schodami w górę, schodami w dół", "EN" : "Upstairs, Downstairs", "GER" : "-" },
+      "director": "Andrzej Domalik",
+      "artist": "",
+      "year" : 1988,
+      "size" : [200, 100],
+      "description" : "Members of an artist community opt for decadence as they anticipate the end of the world as they know it. As the storm clouds of war gather over Europe, a famous painter (Jan Nowicki) and his Bohemian friends revel in sex, drugs, and alcohol. The young artist Karol (Maciej Robakiewicz) begins his own series of paintings in between his love affairs.",
+      "www" : "http://www.nytimes.com/movies/movie/130425/Schodami-W-Gore-Schodami-W-Dol/overview",
+      "url": "images/schodami_w_gore_schodami_w_dol.jpeg"
+    },
+    {
+      "title" : { "PL" : "Spowiedź dziecięcia wieku", "EN" : "-", "GER" : "-" },
+      "director": "Marek Nowicki",
+      "artist": "",
+      "year" : 1985,
+      "size" : [200, 100],
+      "description" : "Luźna adaptacja słynnej powieści Alfreda de Musseta pod tym samym tytułem. 'Spowiedź dziecięcia wieku' powstała w okresie głębokiego kryzysu duchowego i ideowego doby ponapoleońskiej szybko zyskała status jednego z najważniejszych dzieł francuskiego romantyzmu...",
+      "www" : "http://www.filmpolski.pl/fp/index.php?film=12336",
+      "url": "images/spowiedz_dzieciecia_wieku.jpeg"
     }]
 };
 
