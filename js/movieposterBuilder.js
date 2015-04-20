@@ -128,7 +128,7 @@ var posters = {
       "size" : [200, 100],
       "description" : "No End is a 1985 film directed by Krzysztof Kieślowski and starring Grażyna Szapołowska, Maria Pakulnis, and Aleksander Bardini. The film is about the state of Martial law in Poland after the banning of the trade union Solidarity in 1981. Kieślowski worked with several regular collaborators for the first time on No End.",
       "www" : "http://en.wikipedia.org/wiki/No_End_%28film%29",
-      "url": "images/bez_konza.jpeg"
+      "url": "images/bez_konca.jpeg"
     },
     {
       "title" : { "PL" : "Bluszcz" },
