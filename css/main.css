@@ -17,10 +17,6 @@ body {
 
 body {
   margin: 1vh 0 1vh 0;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;      /* TWEENER - IE 10 */
-	display: -webkit-flex;     /* NEW - Chrome */
 	display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,16 +74,17 @@ hero {
   /*-webkit-filter: saturate(3) opacity(0.7);*/
   width: 100%;
   height: auto;
-
   background-image: url("../images/camera-big.jpeg");
+  background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-big.jpeg'); /* Firefox-specific background styles */
+  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
   margin: 0;
   /*position: relative;*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /*-webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
+  -o-background-size: cover;
 }
 
 /*
