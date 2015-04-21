@@ -118,30 +118,15 @@ header.smaller img#logo {
 }
 
 hero {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center;
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-
-  /* Set up positioning */
-  position: relative;
-  top: 0;
-  left: 0;
   background: url(../images/camera-big.jpeg) no-repeat center center;
-  background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-big.jpeg'); /* Firefox-specific background styles */
+  background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-big.jpeg');
   background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-
+  background-size: cover;;
 }
 
 /*
