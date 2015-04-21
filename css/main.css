@@ -17,10 +17,34 @@ body {
 
 body {
   margin: 1vh 0 1vh 0;
-	display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
-  text-align: center;
   background-color: transparent;
   font-family: 'Lato', sans-serif;
 }
@@ -31,7 +55,24 @@ img {
 }
 
 header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   justify-content: center; /* align horizontal */
   align-items: center;
   width: 100%;
@@ -50,6 +91,11 @@ header {
 }
 
 header img#logo {
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  text-align: center;
   width: 50px;
   max-width: 50px;
   height: auto;
@@ -71,20 +117,28 @@ header.smaller img#logo {
 }
 
 hero {
-  /*-webkit-filter: saturate(3) opacity(0.7);*/
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  background-image: url("../images/camera-big.jpeg");
+
+  /* Set up positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url(../images/camera-big.jpeg) no-repeat center center;
   background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-big.jpeg'); /* Firefox-specific background styles */
   background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
-  margin: 0;
-  /*position: relative;*/
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
+
 }
 
 /*
@@ -99,8 +153,10 @@ location {
 }
 
 article {
-  align-items: center;
   display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  text-align: center;
   flex-direction: column;
   max-width: 50em;
   font-size: 1em;
