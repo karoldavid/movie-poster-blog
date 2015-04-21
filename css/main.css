@@ -114,9 +114,12 @@ header.smaller {
 header.smaller img#logo {
   width: 30px;
   height: auto;
+  padding-right: 20px;
 }
 
 hero {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center;
