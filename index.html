@@ -27,7 +27,7 @@
 
 <body>
   <header>
-    <img id="logo" class="cmn-t-pulse" src="images/logo.svg">
+    <img id="logo" src="images/logo.svg">
     <div id="headerSocial">
       <ul>
         <li><a class="zocial-email" href="mailto:k.zysk@zoho.com?subject=I Love Polish Movie Posters"></a></li>
@@ -63,15 +63,12 @@
   <script>
     $("img.lazy").lazyload({ effect : "fadeIn" });
 
+    $(document).ready(function()
+      {
+        $("#logo").addClass("cmn-t-pulse");
+      })
+
     function init() {
-      // load deferred images
-      // var imgDefer = document.getElementsByTagName('img');
-      // for (var i=0; i<imgDefer.length; i++) {
-      //   if(imgDefer[i].getAttribute('data-src')) {
-      //     imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-      //   }
-      // }
-      // shrink header on scroll, shrink logo and add social icons
       window.addEventListener('scroll', function(e){
           var distanceY = window.pageYOffset || document.documentElement.scrollTop,
               shrinkOn = 300,
@@ -85,8 +82,10 @@
                   document.getElementById("headerSocial").style.display = 'none';
               }
           }
+
       });
     }
+
     window.onload = init;
 
     // hide element if undefined
