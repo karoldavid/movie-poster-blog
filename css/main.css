@@ -46,7 +46,8 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: transparent;
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: "LatoLatinLight", Georgia;
 }
 
 img {
