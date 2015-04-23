@@ -485,10 +485,180 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [100, 200],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/macaroni.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/milosc_swana.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/mroczny_przedmiot_pozadania.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [100, 200],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/proces_poszlakowy.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/sobowtor.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [100, 200],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/sprzedawca_kapeluszy.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/zapach_kobiety.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/z_przewiazanymi_oczami.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [100, 200],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/z_zycia_marionetek.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [200, 100],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "images/zagadka_niesmiertelnosci.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/koronczarka.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/jajo_weza.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/fedora.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/fanny_i_aleksander.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/dlugowieczna_rodzinka.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/carmen.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/bliskie_spotkania_trzeciego_stopnia.jpeg"
+    },
+    {
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "director": "dolor sit amet",
+      "artist": "",
+      "year" : { "poster" : 0, "movie" : 9999 },
+      "size" : [200, 100],
+      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "www" : "#",
+      "url": "images/alicja_ucieka_po_raz_ostatni.jpeg"
     }]
 };
 
