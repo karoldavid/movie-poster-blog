@@ -121,9 +121,7 @@ header.smaller img#logo {
 hero {
   width: 100%;
   height: auto;
-  background: url(../images/camera-big.jpeg) no-repeat center center;
-  background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-big.jpeg');
-  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -309,19 +307,49 @@ footer {
   font-size: 0.9em;
 }
 
+@media only screen and (min-width: 801px) {
+    hero {
+      width: 100%;
+      height: auto;
+      background: url(../images/camera-big.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+}
+
 @media only screen and (min-width: 701px) and (max-width:800px) {
     hero {
-      background-image: url("../images/camera-medium.jpeg")
+      width: 100%;
+      height: auto;
+      background: url(../images/camera-small-portrait.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-medium.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-medium.jpeg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
 }
 
 
 /* Portrait */
 @media only screen
-  and (max-width: 601px)
+  and (max-width: 700px)
   and (orientation: portrait) {
     hero {
-      background-image: url("../images/camera-small-portrait.jpeg");
+      width: 100%;
+      height: auto;
+      background: url(../images/camera-small-portrait.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-small-portrait.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-small-portrait.jpeg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
     .title h1 {
       font-size: 5em;
@@ -343,7 +371,15 @@ footer {
   and (max-width: 700px)
   and (orientation: landscape) {
     hero {
-      background-image: url("../images/camera-small-landscape.jpeg");
+      width: 100%;
+      height: auto;
+      background: url(../images/camera-small-landscape.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-small-landscape.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-small-landscape.jpeg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
     .title h1 {
       font-size: 4em;
