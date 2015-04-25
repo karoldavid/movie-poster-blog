@@ -159,7 +159,6 @@ article {
   margin: 1em 0 0.5em 0;
   color: #fff;
   border-bottom: none;
-  font-size: 9em;
 }
 .title h2 {
   border-bottom: none;
@@ -307,6 +306,18 @@ footer {
   font-size: 0.9em;
 }
 
+@media only screen and (min-width: 1200px) {
+  .title h1 {
+    font-size: 9em;
+  }
+  .title h2 {
+    font-size: 3em;
+  }
+  hero {
+    min-height: 700px;
+  }
+}
+
 @media only screen and (min-width: 801px) {
     hero {
       width: 100%;
@@ -321,6 +332,18 @@ footer {
     }
 }
 
+@media only screen and (min-width: 801px) and (max-width: 1199px){
+    .title h1 {
+      font-size: 4.0em;
+    }
+    .title h2 {
+      font-size: 1.8em;
+    }
+    hero {
+      min-height: 600px;
+    }
+}
+
 @media only screen and (min-width: 701px) and (max-width:800px) {
     hero {
       width: 100%;
@@ -332,6 +355,13 @@ footer {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      min-height: 600px;
+    }
+    .title h1 {
+      font-size: 3.8em;
+    }
+    .title h2 {
+      font-size: 1.8em;
     }
 }
 
