@@ -309,29 +309,55 @@ footer {
   font-size: 0.9em;
 }
 
-@media only screen and (min-width: 601px) and (max-width:800px) {
+@media only screen and (min-width: 701px) and (max-width:800px) {
     hero {
       background-image: url("../images/camera-medium.jpeg")
     }
 }
 
-@media only screen and (max-width:601px) {
-  hero {
-    background-image: url("../images/camera-small.jpeg");
-  }
-  .title h1 {
-    font-size: 5em;
-  }
-  .title h2 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 10vw;
-  }
-  #footerSocial li {
-    display: block;
-    padding: 20px 0;
-  }
+
+/* Portrait */
+@media only screen
+  and (max-width: 601px)
+  and (orientation: portrait) {
+    hero {
+      background-image: url("../images/camera-small-portrait.jpeg");
+    }
+    .title h1 {
+      font-size: 5em;
+    }
+    .title h2 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 10vw;
+    }
+    #footerSocial li {
+      display: block;
+      padding: 20px 0;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (max-width: 700px)
+  and (orientation: landscape) {
+    hero {
+      background-image: url("../images/camera-small-landscape.jpeg");
+    }
+    .title h1 {
+      font-size: 4em;
+    }
+    .title h2 {
+      font-size: 1.7em;
+    }
+    h2 {
+      font-size: 10vw;
+    }
+    #footerSocial li {
+      display: block;
+      padding: 20px 0;
+    }
 }
 
 /* ============================================================
