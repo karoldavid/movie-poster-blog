@@ -311,9 +311,9 @@ footer {
     hero {
       width: 100%;
       height: auto;
-      background: url(../images/camera-big.jpeg) no-repeat center center;
-      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
-      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-big.jpeg');
+      background: url(../images/banner/camera-big.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-big.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-big.jpeg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -325,9 +325,9 @@ footer {
     hero {
       width: 100%;
       height: auto;
-      background: url(../images/camera-small-portrait.jpeg) no-repeat center center;
-      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-medium.jpeg');
-      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-medium.jpeg');
+      background: url(../images/banner/camera-small-portrait.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-medium.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-medium.jpeg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -343,9 +343,9 @@ footer {
     hero {
       width: 100%;
       height: auto;
-      background: url(../images/camera-small-portrait.jpeg) no-repeat center center;
-      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-small-portrait.jpeg');
-      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-small-portrait.jpeg');
+      background: url(../images/banner/camera-small-portrait.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-small-portrait.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-small-portrait.jpeg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -373,9 +373,9 @@ footer {
     hero {
       width: 100%;
       height: auto;
-      background: url(../images/camera-small-landscape.jpeg) no-repeat center center;
-      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/camera-small-landscape.jpeg');
-      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/camera-small-landscape.jpeg');
+      background: url(../images/banner/camera-small-landscape.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/banner/camera-small-landscape.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/camera-small-landscape.jpeg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
