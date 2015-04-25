@@ -658,16 +658,6 @@ var posters = {
       "size" : [200, 100],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
-      "url": "alicja_ucieka_po_raz_ostatni"
-    },
-    {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
-      "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [200, 100],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
       "url": "ciuleandra"
     },
     {
@@ -689,16 +679,6 @@ var posters = {
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "dotkniencie_meduzy"
-    },
-    {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
-      "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [200, 100],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
-      "url": "alicja_ucieka_po_raz_ostatni"
     },
     {
       "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
