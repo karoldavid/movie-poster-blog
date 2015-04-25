@@ -334,10 +334,10 @@ footer {
 
 @media only screen and (min-width: 801px) and (max-width: 1199px){
     .title h1 {
-      font-size: 4.0em;
+      font-size: 5em;
     }
     .title h2 {
-      font-size: 1.8em;
+      font-size: 3em;
     }
     hero {
       min-height: 600px;
@@ -358,10 +358,10 @@ footer {
       min-height: 600px;
     }
     .title h1 {
-      font-size: 3.8em;
+      font-size: 4.7em;
     }
     .title h2 {
-      font-size: 1.8em;
+      font-size: 3em;
     }
 }
 
