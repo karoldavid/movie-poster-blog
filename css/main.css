@@ -311,9 +311,9 @@ footer {
     hero {
       width: 100%;
       height: auto;
-      background: url(../images/banner/big/camera-big.jpeg) no-repeat center center;
-      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/big/camera-big.jpeg');
-      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/big/camera-big.jpeg');
+      background: url(../images/banner/large/camera-1600_large_1x.jpeg) no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/large/camera-1600_large_1x.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/large/camera-1600_large_1x.jpeg');
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
