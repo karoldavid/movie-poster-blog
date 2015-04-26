@@ -85,7 +85,7 @@ var posters = {
       "director": "Stanisław Jędryka",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1966 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Po przeżyciach wojennych Stefan nie potrafi wrócić do normalnego życia. Wciąż wspomina okupację, kiedy wraz z żoną uciekł z transportu",
       "www" : "http://pl.wikipedia.org/wiki/Powr%C3%B3t_na_ziemi%C4%99",
       "url": "powrot_na_ziemie"
@@ -105,7 +105,7 @@ var posters = {
       "director": "Tadeusz Chmielewski",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1983 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Wierna rzeka (film 1983) is a Polish historical film directed by Tadeusz Chmielewski. It was produced in 1983 and released in 1987.",
       "www" : "http://en.wikipedia.org/wiki/Wierna_rzeka_%281983_film%29",
       "url": "wierna_rzeky"
@@ -115,7 +115,7 @@ var posters = {
       "director": "Václav Matějka",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1983 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Ten film nie ma jeszcze zarysu fabuły.",
       "www" : "http://www.filmweb.pl/film/Anielska+diablica-1983-188894",
       "url": "anielska_diablica"
@@ -145,7 +145,7 @@ var posters = {
       "director": "Gabriel Axel",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1987 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Babette's Feast (Danish: Babettes gæstebud) is a 1987 Danish drama film directed by Gabriel Axel. The film's screenplay was written by Axel based on the story by Isak Dinesen (Karen Blixen). Produced by Just Betzer, Bo Christensen, and Benni Korzen with funding from the Danish Film Institute, Babette's Feast was the first Danish cinema film of a Blixen story. It was also the first Danish film to win the Academy Award for Best Foreign Language Film. The film premiered in the Un Certain Regard section of the 1987 Cannes Film Festival.",
       "www" : "http://en.wikipedia.org/wiki/Babette's_Feast",
       "url": "uczta_babette"
@@ -225,7 +225,7 @@ var posters = {
       "director": "Jerzy Domaradzki",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1983 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Planeta Krawiec – polski film obyczajowy w reżyserii Jerzego Domaradzkiego z roku 1983. Przypowieść o prowincjonalnym krawcu, który marzył o gwiazdach. Film został oparty na autentycznej biografii Adama Giedrysa.",
       "www" : "http://pl.wikipedia.org/wiki/Planeta_krawiec",
       "url": "planeta_krawiec"
@@ -305,7 +305,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "przygody_picassa"
@@ -315,7 +315,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "smiertelny_poscig"
@@ -325,7 +325,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "stragan_rybny"
@@ -345,7 +345,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "tajemnica_spalonego_domu"
@@ -365,7 +365,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "a_statek_plynie"
@@ -395,7 +395,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "dziewczyna_z_reklamy"
@@ -425,7 +425,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "paso_doble"
@@ -435,7 +435,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "pierwsza_milosc"
@@ -465,7 +465,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "veronika"
@@ -475,7 +475,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "wielka_draka_w_chinskiej_dzielnicy"
@@ -485,7 +485,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "macaroni"
@@ -515,7 +515,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "proces_poszlakowy"
@@ -535,7 +535,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "sprzedawca_kapeluszy"
@@ -565,7 +565,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "z_zycia_marionetek"
@@ -785,7 +785,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "pozegnanie_z_afryka_2"
@@ -825,7 +825,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "zurawwie_wracaja_do_gniazd"
@@ -855,7 +855,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "gabriela"
@@ -865,7 +865,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "imperium_slonca"
@@ -915,7 +915,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "maski"
@@ -981,7 +981,7 @@ var posters = {
       "url": "niewinne"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
+      "title" : { "PL" : "Ostatnie Metro", "EN" : "-", "GER" : "-" },
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
@@ -1005,7 +1005,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "paris_texas"
@@ -1025,7 +1025,7 @@ var posters = {
       "director": "dolor sit amet",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
-      "size" : [57, 40.5],
+      "size" : [84, 59],
       "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
       "www" : "#",
       "url": "piesn_o_rolandzie"
