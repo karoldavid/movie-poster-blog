@@ -20,10 +20,21 @@
   <link rel="stylesheet" href="fonts/LatoLatin/LatoLatinLight-Regular.css">
   <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
   <link rel="stylesheet" href="css/main.css">
-
+  <script>
+      function measureCRP() {
+          var t = window.performance.timing,
+             interactive = t.domInteractive - t.domLoading,
+             dcl = t.domContentLoadedEventStart - t.domLoading,
+             complete = t.domComplete - t.domLoading;
+           var stats = document.createElement('p');
+           stats.textContent = 'interactive: ' + interactive + 'ms, ' +
+               'dcl: ' + dcl + 'ms, complete: ' + complete + 'ms';
+           document.body.appendChild(stats);
+         }
+  </script>
 </head>
 
-<body>
+<body onload="measureCRP()">
   <header>
     <img id="logo" src="images/logo.svg">
     <div id="headerSocial">
@@ -44,7 +55,6 @@
         <h2>Genuine</h2>
         <p class="lead">110 Original Polish Masterpieces mostly from the Socialist Time; Discover Photographs of the Original Movie Poster Collection; dating from 1955 - 1989; created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider; rare and Out-Of-Print ...</p>
   </article>
-
   <footer>
     <div id="footerSocial">
       <ul>
