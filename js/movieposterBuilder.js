@@ -261,103 +261,103 @@ var posters = {
       "url": "spowiedz_dzieciecia_wieku"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Czarna pończocha", "EN" : "-", "GER" : "-" },
+      "director": "Otakar Fuka",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1987 },
       "size" : [47.5, 68.5],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "Miroslav Opatovský (Milan Karpisek) jest damskim krawcem, pracującym w dużym salonie mody. Jest żonaty, ceniony w pracy, przez otoczenie uważany za porządnego człowieka.",
+      "www" : "http://www.filmweb.pl/film/Czarna+po%C5%84czocha-1987-178037",
       "url": "czarna_ponczocha"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Miłość w kroplach deszczu", "EN" : "-", "GER" : "Sommerliebelei", "FR" : "Un Amour de pluie"},
+      "director": "Jean-Claude Brialy",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1974 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "Une mère et sa fille de 15 ans partent en cure pour leurs vacances. La mère tombe sous le charme d'un Italien, Giovanni, tandis que sa fille s'amourache du cuisinier de l'hôtel, Georges.",
+      "www" : "http://fr.wikipedia.org/wiki/Un_amour_de_pluie",
       "url": "milosc_w_deszczu"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Świat na uboczu", "EN" : "A World Apart", "GER" : "Zwei Welten" },
+      "director": "Chris Menges",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1988 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "A World Apart is a 1988 anti-Apartheid drama, written by Shawn Slovo and directed by Chris Menges. It is based on the lives of Slovo's parents, Ruth First and Joe Slovo. The film was a co-production between companies from the UK and Zimbabwe, where the movie was filmed. It features Hans Zimmer's first non-collaborative film score.",
+      "www" : "http://en.wikipedia.org/wiki/A_World_Apart_%28film%29",
       "url": "na_uboczu"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Powiększenie", "EN" : "Blowup", "GER" : "Blow Up" },
+      "director": "Michelangelo Antonioni",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1966 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "Blowup, or Blow-Up, is a 1966 film directed by Michelangelo Antonioni about a fashion photographer, played by David Hemmings, who believes he has unwittingly captured a murder on film. It was Antonioni's first entirely English-language film.",
+      "www" : "http://en.wikipedia.org/wiki/Blowup",
       "url": "powiekszenie"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Przygody Picassa", "EN" : "The Adventures of Picasso", "GER" : "-", "SE" : "Picassos äventyr" },
+      "director": "Tage Danielsson",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1978 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "The Adventures of Picasso (Swedish: Picassos äventyr) is a 1978 Swedish comedy film directed by Tage Danielsson, starring Gösta Ekman, as the famous painter. The film had the tag-line Tusen kärleksfulla lögner av Hans Alfredson och Tage Danielsson (A thousand loving lies by Hans Alfredson and Tage Danielsson). At the 14th Guldbagge Awards the film won the award for Best Film.",
+      "www" : "http://en.wikipedia.org/wiki/The_Adventures_of_Picasso",
       "url": "przygody_picassa"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Śmiertelny pościg", "EN" : "The Passengers", "GER" : "-", "FR" : "Les Passagers" },
+      "director": "Serge Leroy",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1977 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "The Passengers (French: Les Passagers, Italian: Viaggio di paura) is a French 1977 drama film directed by Serge Leroy and starring Jean-Louis Trintignant. It was released in the United States as The Intruder. It is based on Dean Koontz's novel Shattered.",
+      "www" : "http://en.wikipedia.org/wiki/The_Passengers_%281977_film%29",
       "url": "smiertelny_poscig"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Yamaha, stragan rybny", "EN" : "Yamaha Fish Stall", "GER" : "Der Fischhändler" },
+      "director": "Liang Zang",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1984 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
+      "www" : "http://www.filmweb.pl/film/Yamaha%2C+stragan+rybny-1984-435997",
       "url": "stragan_rybny"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Przypływ uczuć", "EN" : "High Tide", "GER" : "-" },
+      "director": "Gillian Armstrong",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1987 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "High Tide is a 1987 Australian film, from a script by Laura Jones, about the mother-daughter bond, directed by Gillian Armstrong. Armstrong reported that when she began work on High Tide she pinned a note above her desk: 'Blood ties. Water. Running Away.'' Jan Adele plays Lilli's mother-in-law Bet, in her film debut.",
+      "www" : "http://en.wikipedia.org/wiki/High_Tide_(1987_film)",
       "url": "przyplyw_uczuc"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Tajemnica spalonego domu", "EN" : "The Peanut Butter Solution", "GER" : "Unternehmen Erdnußbutter", "FR" : "Opération beurre de pinottes" },
+      "director": "Michael Rubbo",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1985 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "The Peanut Butter Solution (French title: Opération beurre de pinottes) is a 1985 family film. The movie was directed by Michael Rubbo and is the 2nd in the Tales for All (Contes Pour Tous) series of children's movies created by Les Productions la Fête.",
+      "www" : "http://en.wikipedia.org/wiki/The_Peanut_Butter_Solution",
       "url": "tajemnica_spalonego_domu"
     },
     {
-      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "-", "GER" : "-" },
-      "director": "dolor sit amet",
+      "title" : { "PL" : "Lorem ipsum dolor sit amet", "EN" : "Violette & François", "GER" : "Violette und François", "FR" : "Violette et François" },
+      "director": "Jacques Rouffio",
       "artist": "",
-      "year" : { "poster" : 0, "movie" : 9999 },
+      "year" : { "poster" : 0, "movie" : 1977 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "www" : "#",
+      "description" : "Un jeune couple ayant un enfant de deux ans, non conformiste, vit d'amour et de vol à l'étalage. L'un de ses deux membres finissant par être franchement excédé de cette façon de subsister, et ne prenant dès lors plus aucune précaution pour masquer ses larcins, l'histoire finira tristement. Ou comment la bohème a une fin.",
+      "www" : "http://fr.wikipedia.org/wiki/Violette_et_Fran%C3%A7ois",
       "url": "violette_i_francois"
     },
     {
@@ -366,7 +366,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "a_statek_plynie"
     },
@@ -376,7 +376,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "bal"
     },
@@ -386,7 +386,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "chrystus_zatrzymal_sie_w_eboli"
     },
@@ -396,7 +396,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "dziewczyna_z_reklamy"
     },
@@ -406,7 +406,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "korek"
     },
@@ -416,7 +416,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "niewinni_swieci"
     },
@@ -426,7 +426,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "paso_doble"
     },
@@ -436,7 +436,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "pierwsza_milosc"
     },
@@ -446,7 +446,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "siedmiu_samurajow"
     },
@@ -456,7 +456,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "siekierezada"
     },
@@ -466,7 +466,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "veronika"
     },
@@ -476,7 +476,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "wielka_draka_w_chinskiej_dzielnicy"
     },
@@ -486,7 +486,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "macaroni"
     },
@@ -496,7 +496,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "milosc_swana"
     },
@@ -506,7 +506,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "mroczny_przedmiot_pozadania"
     },
@@ -516,7 +516,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "proces_poszlakowy"
     },
@@ -526,7 +526,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "sobowtor"
     },
@@ -536,7 +536,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "sprzedawca_kapeluszy"
     },
@@ -546,7 +546,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "zapach_kobiety"
     },
@@ -556,7 +556,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "z_przewiazanymi_oczami"
     },
@@ -566,7 +566,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "z_zycia_marionetek"
     },
@@ -576,7 +576,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "zagadka_niesmiertelnosci"
     },
@@ -586,7 +586,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "koronczarka"
     },
@@ -596,7 +596,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "jajo_weza"
     },
@@ -606,7 +606,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "fedora"
     },
@@ -616,7 +616,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "fanny_i_aleksander"
     },
@@ -626,7 +626,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "dlugowieczna_rodzinka"
     },
@@ -636,7 +636,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "carmen"
     },
@@ -646,7 +646,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "bliskie_spotkania_trzeciego_stopnia"
     },
@@ -656,7 +656,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "ciuleandra"
     },
@@ -666,7 +666,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "coma"
     },
@@ -676,7 +676,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "dotkniencie_meduzy"
     },
@@ -686,7 +686,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "gon_mnie_az_cie_zlapie"
     },
@@ -696,7 +696,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "imperium_namietnosci"
     },
@@ -706,7 +706,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "alicja_ucieka_po_raz_ostatni"
     },
@@ -716,7 +716,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "lot_nad_kukulczym_gniazdem"
     },
@@ -726,7 +726,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "nakarmic_kruki"
     },
@@ -736,7 +736,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "nie_strzelac_do_nauczyciela"
     },
@@ -746,7 +746,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "nie_taki_zly"
     },
@@ -756,7 +756,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "ofiara_namietnosci"
     },
@@ -766,7 +766,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "o_rany_nic_sie_nie_stalo"
     },
@@ -776,7 +776,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "pozegnanie_z_afryka"
     },
@@ -786,7 +786,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "pozegnanie_z_afryka_2"
     },
@@ -796,7 +796,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "stroszek"
     },
@@ -806,7 +806,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "wujaszek_z_ameryki"
     },
@@ -816,7 +816,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "zostanmy_razem"
     },
@@ -826,7 +826,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "zurawwie_wracaja_do_gniazd"
     },
@@ -836,7 +836,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "z_wizyta_u_van_gogha"
     },
@@ -846,7 +846,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "8"
     },
@@ -856,7 +856,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "gabriela"
     },
@@ -866,7 +866,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "imperium_slonca"
     },
@@ -876,7 +876,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "jak_poeci_traca_zludzenia"
     },
@@ -886,7 +886,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [59, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "kobieta_pod_presja"
     },
@@ -896,7 +896,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [60, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "krotki_sezon"
     },
@@ -906,7 +906,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "maratonczyk"
     },
@@ -916,7 +916,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "maski"
     },
@@ -926,7 +926,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "milosc_szmaragd_i_krokodyl"
     },
@@ -936,7 +936,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "najlepszy_kumpel"
     },
@@ -946,7 +946,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "niebianskie_dni"
     },
@@ -956,7 +956,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "nieme_kino"
     },
@@ -966,7 +966,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "nieoczekiwana_zmiana_miejsc"
     },
@@ -976,7 +976,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "niewinne"
     },
@@ -986,7 +986,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "ostatnie_metro"
     },
@@ -996,7 +996,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [60, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "ostatni_film_o_legii_cudzoziemskiej"
     },
@@ -1006,7 +1006,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "paris_texas"
     },
@@ -1016,7 +1016,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "paris_texas_2"
     },
@@ -1026,7 +1026,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 59],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "piesn_o_rolandzie"
     },
@@ -1036,7 +1036,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "popiol_i_diament"
     },
@@ -1046,7 +1046,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [84, 58],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "powiedz_ze_ja_kocham"
     },
@@ -1056,7 +1056,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "powrot_z_piekla"
     },
@@ -1066,7 +1066,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "proba_orkiestry"
     },
@@ -1076,7 +1076,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [67, 95],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "trzy_kobiety"
     },
@@ -1086,7 +1086,7 @@ var posters = {
       "artist": "",
       "year" : { "poster" : 0, "movie" : 9999 },
       "size" : [58, 84],
-      "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "description" : "Ten film nie ma jeszcze zarysu fabuły",
       "www" : "#",
       "url": "zabojstwo_chinskiego_maklera"
     }]
