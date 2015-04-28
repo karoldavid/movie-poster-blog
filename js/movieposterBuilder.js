@@ -775,7 +775,7 @@ var posters = {
       "director": "Sydney Pollack",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1985 },
-      "size" : [84, 59],
+      "size" : [67, 95],
       "description" : "Out of Africa is a 1985 American epic romantic drama film directed and produced by Sydney Pollack and starring Robert Redford and Meryl Streep. The film is based loosely on the autobiographical book Out of Africa written by Isak Dinesen (the pseudonym of Danish author Karen Blixen), which was published in 1937, with additional material from Dinesen's book Shadows on the Grass and other sources. This film received 28 film awards, including seven Academy Awards.",
       "www" : "http://en.wikipedia.org/wiki/Out_of_Africa_(film)",
       "url": "pozegnanie_z_afryka"
@@ -785,7 +785,7 @@ var posters = {
       "director": "Sydney Pollack",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1985 },
-      "size" : [67, 95],
+      "size" : [84, 59],
       "description" : "Out of Africa is a 1985 American epic romantic drama film directed and produced by Sydney Pollack and starring Robert Redford and Meryl Streep. The film is based loosely on the autobiographical book Out of Africa written by Isak Dinesen (the pseudonym of Danish author Karen Blixen), which was published in 1937, with additional material from Dinesen's book Shadows on the Grass and other sources. This film received 28 film awards, including seven Academy Awards.",
       "www" : "http://en.wikipedia.org/wiki/Out_of_Africa_(film)",
       "url": "pozegnanie_z_afryka_2"
