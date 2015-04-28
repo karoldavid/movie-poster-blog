@@ -1015,7 +1015,7 @@ var posters = {
       "director": "Wim Wenders",
       "artist": "",
       "year" : { "poster" : 0, "movie" : 1984 },
-      "size" : [84, 59],
+      "size" : [67, 95],
       "description" : "Paris, Texas is a 1984 drama film directed by Wim Wenders and starring Harry Dean Stanton, Dean Stockwell, Nastassja Kinski, and Hunter Carson. The screenplay was written by L.M. Kit Carson and playwright Sam Shepard, and the distinctive musical score was composed by Ry Cooder. The cinematography was by Robby Müller. The film was a co-production between companies in France and West Germany, and was filmed in the United States.",
       "www" : "http://en.wikipedia.org/wiki/Paris,_Texas_%28film%29",
       "url": "paris_texas_2"
