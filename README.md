@@ -1,4 +1,4 @@
-## Polish movie-poster-gallery
+## Polish Movie Poster Online Gallery
 
 ### This is a link to the live version:
 
