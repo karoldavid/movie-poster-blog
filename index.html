@@ -42,6 +42,8 @@
       <figcaption>&copy; Ryszard Podkalicki</figcaption>
         <h2>Genuine</h2>
         <p class="lead">110 Original Polish Masterpieces mostly from the Socialist Time; Discover Photographs of the Original Movie Poster Collection; dating from 1955 - 1989; created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider; rare and Out-Of-Print ...</p>
+        <br>
+        <button id="reverse">reverse</button>
     </section>
   </article>
   <footer>
@@ -57,21 +59,17 @@
   <!--<script src="js/build/production.min.js"></script>-->
 
   <script src="js/jquery-1.11.2.js"></script>
-  <script src="js/helper.js"></script>
   <script src="js/movieposterData.js"></script>
   <script src="js/movieposterBuilder.js"></script>
   <script src="js/lazyLoad.js"></script>
   <script src="js/classie.js"></script>
   <script>
 
-    $("img.lazy").lazyload({ effect : "fadeIn" });
-
-    $(document).ready(function()
-      {
-        $("#logo").addClass("cmn-t-pulse");
-      })
-
     function init() {
+
+      $("img.lazy").lazyload({ effect : "fadeIn" });
+      $("#logo").addClass("cmn-t-pulse");
+
       window.addEventListener('scroll', function(e){
           var distanceY = window.pageYOffset || document.documentElement.scrollTop,
               shrinkOn = 300,
@@ -85,16 +83,10 @@
                   document.getElementById("headerSocial").style.display = 'none';
               }
           }
-
       });
     }
 
     window.onload = init;
-
-    // hide element if undefined
-    if(document.getElementsByClassName('poster-entry').length === 0) {
-      document.getElementById('poster').style.display = 'none';
-    }
 
   </script>
 
