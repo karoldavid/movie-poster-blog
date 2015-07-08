@@ -306,6 +306,103 @@ footer {
   font-size: 0.9em;
 }
 
+/**
+ *
+ * Search Elements
+ *
+ */
+
+
+.search-items {
+
+}
+
+.search {
+  position: relative; 
+    z-index: 1; /* The z-index should be higher than Google Maps */
+    /*width: 19em;*/
+    margin: 0 0 1em 0;
+    padding: 0.75em;
+    background: black;
+    height: auto;
+    opacity: .45; /* Set the opacity for a slightly transparent Google Form */ 
+    color: white;
+}
+
+#searchbar { 
+    
+}
+
+.button {
+  
+}
+
+#search-results { 
+ 
+}
+
+#search-results ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  max-height: 10em;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+#search-results li {
+  background: none;   
+  -webkit-transition: all 0.5s ease-out;
+  border-bottom: 1px solid #fff;
+}
+
+#search-results li:last-child {
+  border-bottom: none;
+}
+
+#search-results li:hover {
+  background: #ccc;
+  cursor: pointer;
+  -webkit-transition: all 0.1s;
+  font-weight: bold;
+  color: #000;
+}
+
+#search-results li.selected {
+  background: #191970;
+  cursor: pointer;
+  -webkit-transition: all 0.1s;
+  font-weight: bold;
+  color: #fff;
+}
+
+#gallery { 
+ 
+}
+
+#gallery ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery ul li {
+  background: none;   
+  -webkit-transition: all 0.5s ease-out;
+  border-bottom: 1px solid #fff;
+}
+
+#gallery ul li:last-child {
+  border-bottom: none;
+}
+
+/**
+ *
+ * Media Queries
+ *
+ */
+
 @media only screen and (min-width: 1200px) {
   .title h1 {
     font-size: 9em;

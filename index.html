@@ -38,13 +38,37 @@
     </lead>
   </hero>
   <article>
-    <section id="poster">
+    <section id="teaser">
       <figcaption>&copy; Ryszard Podkalicki</figcaption>
         <h2>Genuine</h2>
         <p class="lead">110 Original Polish Masterpieces mostly from the Socialist Time; Discover Photographs of the Original Movie Poster Collection; dating from 1955 - 1989; created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider; rare and Out-Of-Print ...</p>
         <br>
-        <button id="reverse">reverse</button>
     </section>
+    <section id="search">
+        <div class="col-1 search-items">
+          <div class="item-1 search" id="searchbar">
+            <form action="#"> 
+              <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
+              <button class="button" data-bind="click: reverseList"><></button>
+            </form>
+          </div>
+
+          <!-- <div class="item-2 search" id="search-results">
+            <div class="content">
+              <ul data-bind="template: {name: 'result', foreach: searchResults}"></ul
+            </div>
+          </div> -->
+        </div>
+     </section>
+     <section id="gallery">
+         <div class="col-2">
+             <ul data-bind="template: {name: 'posters', foreach: searchResults}"></ul>
+
+         </div>
+
+     </section>
+
+
   </article>
   <footer>
     <div id="footerSocial">
@@ -58,7 +82,28 @@
   </footer>
   <!--<script src="js/build/production.min.js"></script>-->
 
+   <!-- search result list -->
+  <script type="text/html" id="result"> 
+    <li data-bind="text: title_en, css: { selected: $data == $root.chosenPosterId() }, click: $root.goToPoster"></li>
+  </script>
+
+   <!-- search result list -->
+  <script type="text/html" id="posters"> 
+    <li>
+        <figure class="poster-entry">
+            <picture>
+                <img data-bind="attr:{src: src, width: width}"/>
+            </picture>
+            <figcaption data-bind="text: figcaption()"></figcaption>
+       
+            <p class="description" data-bind="text: description"></p>
+            <p class="website"><a data-bind="attr:{href: website}" target="_blank"> >>> </a></p>
+         </figure>
+   </li>
+  </script>
+
   <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/knockout-3.3.0.js"></script>
   <script src="js/movieposterData.js"></script>
   <script src="js/movieposterBuilder.js"></script>
   <script src="js/lazyLoad.js"></script>
@@ -67,7 +112,7 @@
 
     function init() {
 
-      $("img.lazy").lazyload({ effect : "fadeIn" });
+      //$("img.lazy").lazyload({ effect : "fadeIn" });
       $("#logo").addClass("cmn-t-pulse");
 
       window.addEventListener('scroll', function(e){
