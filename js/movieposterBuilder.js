@@ -48,9 +48,17 @@ $(function(posters) {
           return this.title_pl + ' (Poster designer: ' + this.artist + '; ' + this.x + 'x' + this.y + ')';
       }, this);
 
+      this.title_all = ko.pureComputed(function() {
+          var titleAll = "";
+
+         for (t in data.title) {
+              titleAll += data.title[t] + " ";
+        };
+          return titleAll;
+      }, this);
 
       this.searchQuery = ko.pureComputed(function() {
-        return this.title_en + ", " + this.title_pl + ", " + this.artist + ", " + this.director + ", " + this.year_movie;
+        return this.title_all() + " " + this.artist + " " + this.director + " " + this.year_movie;
       }, this);
 
     };

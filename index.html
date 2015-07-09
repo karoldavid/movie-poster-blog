@@ -82,7 +82,7 @@
   </footer>
   <!--<script src="js/build/production.min.js"></script>-->
 
-   <!-- search result list -->
+  <!-- search result list -->
   <script type="text/html" id="result"> 
     <li data-bind="text: title_en, css: { selected: $data == $root.chosenPosterId() }, click: $root.goToPoster"></li>
   </script>
@@ -92,10 +92,9 @@
     <li>
         <figure class="poster-entry">
             <picture>
-                <img data-bind="attr:{src: src, width: width}"/>
+                <img class="lazy poster" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-bind="attr:{src: src, width: width}"/>
             </picture>
             <figcaption data-bind="text: figcaption()"></figcaption>
-       
             <p class="description" data-bind="text: description"></p>
             <p class="website"><a data-bind="attr:{href: website}" target="_blank"> >>> </a></p>
          </figure>
@@ -112,7 +111,8 @@
 
     function init() {
 
-      //$("img.lazy").lazyload({ effect : "fadeIn" });
+      $("img.lazy").lazyload({ effect : "fadeIn" });
+
       $("#logo").addClass("cmn-t-pulse");
 
       window.addEventListener('scroll', function(e){
