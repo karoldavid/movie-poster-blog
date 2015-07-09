@@ -55,6 +55,12 @@ img {
   height: auto;
 }
 
+/**
+ *
+ * Header
+ *
+ */
+
 header {
   display: -webkit-box;
   display: -moz-box;
@@ -130,14 +136,10 @@ hero {
 
 /*
  *
- * main
+ * Main
  *
  */
 
-
-location {
-  font-weight: bold;
-}
 
 article {
   display: flex;
@@ -168,8 +170,30 @@ article {
 
 .lead {
   font-weight: bold;
-  font-size: 20px;
-  padding-bottom: 60px;
+  font-size: 1.3em;
+  padding-bottom: 2em;
+}
+
+/**
+ *
+ * Gallery
+ *
+ */
+
+#gallery ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gallery ul li {
+  background: none;   
+  -webkit-transition: all 0.5s ease-out;
+  border-top: 1px solid #ccc;
+}
+
+#gallery ul li:last-child {
+  border-bottom: none;
 }
 
 .poster-entry {
@@ -177,7 +201,7 @@ article {
 }
 
 .description {
-  font-size: 16px;
+  font-size: 1em;
 }
 
 h1 {
@@ -213,7 +237,7 @@ picture#banner img {
 
 
 
-section#poster {
+section#gallery {
   max-width: 50em;
   width: 90vw;
 }
@@ -262,6 +286,12 @@ figure {
   margin: 1em 0 1em 0;
 }
 
+/**
+ *
+ * Social
+ *
+ */
+
 #headerSocial {
   display: none;
 }
@@ -306,95 +336,102 @@ footer {
   font-size: 0.9em;
 }
 
+
 /**
  *
- * Search Elements
+ * Search Box
+ * @CREDENTIALS: http://codepen.io/912lab/pen/LsplC;
  *
  */
 
 
-.search-items {
-
+input {
+  outline: none;
 }
 
-.search {
-  position: relative; 
-    z-index: 1; /* The z-index should be higher than Google Maps */
-    /*width: 19em;*/
-    margin: 0 0 1em 0;
-    padding: 0.75em;
-    background: black;
-    height: auto;
-    opacity: .45; /* Set the opacity for a slightly transparent Google Form */ 
-    color: white;
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none; 
 }
 
-#searchbar { 
-    
+
+input[type=search] {
+  background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
 }
+input[type=search]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #66CC75;
+  
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+  color: #999;
+}
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+/**
+ *
+ * Buttons
+ * CREDITS: https://css-tricks.com/examples/ButtonMaker/;
+ *
+ */
 
 .button {
-  
+   border-top: 1px solid #a688a6;
+   background: #b4d6ed;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c7c7c7), to(#b4d6ed));
+   background: -webkit-linear-gradient(top, #c7c7c7, #b4d6ed);
+   background: -moz-linear-gradient(top, #c7c7c7, #b4d6ed);
+   background: -ms-linear-gradient(top, #c7c7c7, #b4d6ed);
+   background: -o-linear-gradient(top, #c7c7c7, #b4d6ed);
+   padding: 0.1em 0..25em;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 0.75em;
+   text-decoration: none;
+   vertical-align: middle;
 }
 
-#search-results { 
- 
+.button:hover {
+   border-top-color: #3b474f;
+   background: #3b474f;
+   color: #d6bcd6;
+   cursor: pointer;
 }
 
-#search-results ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  height: auto;
-  max-height: 10em;
-  overflow:hidden;
-  overflow-y:scroll;
-}
-
-#search-results li {
-  background: none;   
-  -webkit-transition: all 0.5s ease-out;
-  border-bottom: 1px solid #fff;
-}
-
-#search-results li:last-child {
-  border-bottom: none;
-}
-
-#search-results li:hover {
-  background: #ccc;
-  cursor: pointer;
-  -webkit-transition: all 0.1s;
-  font-weight: bold;
-  color: #000;
-}
-
-#search-results li.selected {
-  background: #191970;
-  cursor: pointer;
-  -webkit-transition: all 0.1s;
-  font-weight: bold;
-  color: #fff;
-}
-
-#gallery { 
- 
-}
-
-#gallery ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#gallery ul li {
-  background: none;   
-  -webkit-transition: all 0.5s ease-out;
-  border-bottom: 1px solid #fff;
-}
-
-#gallery ul li:last-child {
-  border-bottom: none;
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
 }
 
 /**
