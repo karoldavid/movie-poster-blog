@@ -38,6 +38,7 @@ $(function(posters) {
       this.src = 'images/posters/' + data.src+ '-large_1x.jpeg';
       this.title_pl = data.title['PL'] || "";
       this.title_en = data.title['EN'] || "";
+      this.title_ger = data.title['GER'] || "";
       this.website= data.website;
       this.year_movie = data.year['movie'];
       this.x = data.size[0];
@@ -97,7 +98,42 @@ $(function(posters) {
                 return poster.searchQuery().toLowerCase().indexOf(search) >= 0;
             });
         });
-        
+
+        //http://www.omdbapi.com/?t=Game of Thrones&Season=1&Episode=1
+/*
+        self.openMovieDb = ko.observableArray([]);
+
+        self.getMovieInfo = ko.computed(function() {
+        self.posterList().forEach(function(poster) {
+
+            var url = 'http://www.omdbapi.com/?',
+                title = poster.title_en || poster.title_pl,
+                year = poster.year_movie;
+
+            $.ajax({
+                url: url,
+                dataType: 'json',
+                data: 's=' + title,
+                      //'s=' + title +
+                      //'&type=movie' +
+                      //'&y=' + year,
+                async: true,
+
+                success: function(data) {
+                    var response = data.Search ? data.Search : "nothing found";
+
+
+                    //self.openMovieDb.push(response);
+                    if (response === "nothing found") {
+                      console.log(title + ": " + response);
+                    } else {
+                      console.log(response);
+                    }
+                }
+            });
+        });
+    });*/
+ 
     };
     
 

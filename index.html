@@ -4,9 +4,9 @@
 
   <meta charset="utf-8">
   <meta name="description" content="Polish Movie Poster Gallery" />
-  <!-- <meta name="author" content="Karol Zyskowski - Ryszard Podkalicki"> -->
+  <meta name="author" content="Karol Zyskowski - Ryszard Podkalicki">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <meta itemprop="name" content="Polish Movie Poster Blog">
+  <meta itemprop="name" content="Polish Movie Poster Online Gallery">
   <meta itemprop="image" content="images/favicon.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta id="theme-color" name="theme-color" content="#307699">
@@ -27,26 +27,28 @@
     <img id="logo" src="images/logo.svg">
     <div id="headerSocial">
       <ul>
-        <li><a class="zocial-email" href="mailto:k.zysk@zoho.com?subject=I Love Polish Movie Posters"></a></li>
+        <li><a class="zocial-email" href="mailto:info@polish-movie-poster.de?subject=I Love Polish Movie Posters"></a></li>
         <li><a class="zocial-twitter" href="https://twitter.com/karoldawid"></a></li>
       </ul>
     </div>
   </header>
   <hero>
     <lead class="title">
-      <h1>Polish Movie Posters</h1><h2>1955 - 1989</h2>
+      <h1>Polish Movie Posters</h1><h2>1947 - 1989</h2>
     </lead
 >  </hero>
   <article>
-    <section id="teaser">
+    <section id="teaser" class="lead">
       <figcaption>&copy; Ryszard Podkalicki</figcaption>
         <h2>Genuine</h2>
-        <p class="lead">110 Original Polish Masterpieces On Stock; Mostly from the Socialist Time; Discover Photographs of the Original Movie Poster Collection; Dating from 1955 - 1989; Created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider; Crafted for the first Screening of International and Polish Movies in Polish Cinemas; Rare and Out-Of-Print ...</p>
+        <h3><span data-bind="text: posterList().length"></span> Original Polish Masterpieces</h3>
+        <h4>Rare &#8226; Out-Of-Print &#8226; Mostly from the Socialist Time</h4>
+        <p>Discover Photographs of the Original Movie Poster Collection - dating from 1947 to 1989. Created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider and others. The movie posters have been crafted for the first screening of international and Polish movies in Polish cinemas.</p>
     </section>
     <section id="search">
         <div class="col-1">
           <div class="item-1">
-            <form action="#"> 
+            <form action="#">
               <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
               <!-- <button class="button" data-bind="click: reverseList">reverse</button> -->
             </form>
@@ -60,7 +62,29 @@
      </section>
   </article>
   <footer>
-    <div id="footerSocial">
+    <div class="legal">
+       <ul>
+        <li id="disclaimer"><a>DISCLAIMER</a></li>
+        <li id="contact"><a>CONTACT</a></li>
+      </ul>
+      <div id="legal1">
+        <p>Throughout our site you will find links to external websites.
+          Although we make every effort to ensure these links are accurate,
+          up to date and relevant, we cannot take responsibility
+          for pages maintained by external providers.
+      </div>
+      <div id="legal2">
+        <p>Responsible for the website:<br><br>
+          Ryszard Podkalicki<br><br>
+          +49 - 30 754 420 34<br>
+          c/o Henryk Podkalicki<br>
+          Kołłątaja 19<br>
+          48-130 Kietrz PL<br><br>
+          info@polish-movie-poster.de
+          </p>
+      </div>
+    </div>
+    <div class="footerSocial">
       <ul>
         <li class="zocial-email"><a href="mailto:k.zysk@zoho.com?subject=I Love Polish Movie Posters">email</a></li>
         <li class="zocial-github"><a href="https://github.com/karoldavid?tab=repositories">github</a></li>
@@ -72,12 +96,12 @@
   <!--<script src="js/build/production.min.js"></script>-->
 
   <!-- search result list -->
-  <script type="text/html" id="result"> 
+  <script type="text/html" id="result">
     <li data-bind="text: title_en, css: { selected: $data == $root.chosenPosterId() }, click: $root.goToPoster"></li>
   </script>
 
    <!-- search result list -->
-  <script type="text/html" id="posters"> 
+  <script type="text/html" id="posters">
     <li>
         <figure class="poster-entry">
             <picture>
@@ -121,6 +145,28 @@
     }
 
     window.onload = init;
+
+    // Toggle disclaimer and contact text in footer
+    var disclaimerElem = document.querySelector('#disclaimer');
+    var contactElem = document.querySelector('#contact');
+
+    disclaimerElem.addEventListener('click', function(e) {
+      var elem1 = document.getElementById('legal1'),
+          elem2 = document.getElementById('legal2');
+
+      elem2.style.display = 'none';
+      elem1.style.display = ((elem1.style.display!='none') ? 'none' : 'block');
+      e.stopPropagation();
+    });
+
+    contactElem.addEventListener('click', function(e) {
+      var elem1 = document.getElementById('legal1'),
+          elem2 = document.getElementById('legal2');
+
+      elem1.style.display = 'none';
+      elem2.style.display = ((elem2.style.display!='none') ? 'none' : 'block');
+      e.stopPropagation();
+    });
 
   </script>
 
