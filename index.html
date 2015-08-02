@@ -19,7 +19,7 @@
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300&#038;ver=4.1"> -->
   <link rel="stylesheet" href="fonts/LatoLatin/LatoLatinLight-Regular.css">
   <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
-  <link rel="stylesheet" href="dist/css/css-concat.min.css">
+  <link rel="stylesheet" href="dist/css/css-concat.css">
 </head>
 
 <body>
@@ -107,20 +107,20 @@
             <picture>
                 <img class="lazy poster" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-bind="attr:{original: src, width: width}"/>
             </picture>
-            <figcaption data-bind="text: figcaption()"></figcaption>
+            <figcaption data-bind="text: title_pl, text: figcaption()"></figcaption>
             <p class="description" data-bind="text: description"></p>
             <p class="website"><a data-bind="attr:{href: website}" target="_blank">more >>></a></p>
          </figure>
    </li>
   </script>
 
-  <!--<script src="src/js/jquery-1.11.2.js"></script>
-  <script src="src/js/knockout-3.3.0.js"></script>
-  <script src="src/js/movieposterData.js"></script>
-  <script src="src/js/movieposterBuilder.js"></script>
-  <script src="src/js/lazyLoad.js"></script>
-  <script src="src/js/classie.js"></script>-->
-  <script src="dist/js/production.min.js"></script>
+  <script src="src/js/lib/jquery-1.11.2.js"></script>
+  <script src="src/js/lib/knockout-3.3.0.js"></script>
+  <script src="src/js/data/movieposterData.js"></script>
+  <script src="src/js/app/movieposterBuilder.js"></script>
+  <script src="src/js/effects/lazyLoad.js"></script>
+  <script src="src/js/effects/classie.js"></script>
+  <!-- <script src="dist/js/production.js"></script>-->
   <script>
 
     function init() {
