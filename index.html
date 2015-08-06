@@ -20,7 +20,7 @@
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300&#038;ver=4.1"> -->
   <link rel="stylesheet" href="fonts/LatoLatin/LatoLatinLight-Regular.css">
   <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
-  <link rel="stylesheet" href="dist/css/css-concat.css">
+  <link rel="stylesheet" href="src/css/main.css">
 </head>
 
 <body>
@@ -77,11 +77,12 @@
       <div id="legal2">
         <p>Responsible for the website:<br><br>
           Ryszard Podkalicki<br><br>
-          +49 - 30 754 420 34<br>
+          info@polish-movie-poster.de<br>
+          +49 - 30 754 420 34<br><br>
           c/o Henryk Podkalicki<br>
           Kołłątaja 19<br>
           48-130 Kietrz PL<br><br>
-          info@polish-movie-poster.de
+          All Movie Poster Pictures taken by R. Podkalicki
           </p>
       </div>
     </div>
@@ -106,7 +107,7 @@
     <li>
         <figure class="poster-entry">
             <picture>
-                <img class="lazy poster" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-bind="attr:{original: src, width: width}"/>
+                <img class="lazy poster" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-bind="attr:{original: src, width: width, alt: altText(), title: titleText()}"/>
             </picture>
             <figcaption data-bind="text: title_pl, text: figcaption()"></figcaption>
             <p class="description" data-bind="text: description"></p>
