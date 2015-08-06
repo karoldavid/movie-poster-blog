@@ -49,6 +49,14 @@ $(function(posters) {
           return this.title_pl + ' (Poster designer: ' + this.artist + '; ' + this.x + 'x' + this.y + ')';
       }, this);
 
+      this.altText = ko.pureComputed(function() {
+          return "Picture of Polish Movie Poster " + this.title_pl;
+      },this);
+
+      this.titleText = ko.pureComputed(function() {
+          return "Movie Poster " +  this.title_pl + " designed by " + this.artist;
+      },this);
+
       this.title_all = ko.pureComputed(function() {
           var titleAll = "";
 
