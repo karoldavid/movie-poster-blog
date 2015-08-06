@@ -10625,10 +10625,10 @@ $(function(posters) {
       this.director = data.director;
       this.description = data.description;
       this.src = 'dist/images/posters/' + data.src+ '-large_1x.jpeg';
-      this.title_pl = data.title.pl || "";
-      this.title_en = data.title.en || "";
-      this.title_ger = data.title.ger || "";
-      this.website= data.website;
+      this.title_pl = data.title.PL || "";
+      this.title_en = data.title.EN || "";
+      this.title_ger = data.title.GER || "";
+      this.website = data.website;
       this.year_movie = data.year.movie;
       this.x = data.size[0];
       this.y = data.size[1];
