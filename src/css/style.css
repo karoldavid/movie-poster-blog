@@ -324,6 +324,10 @@ figcaption {
     color: #bb021e;
 }
 
+article {
+  border-bottom: none;
+}
+
 /**
  *
  * Footer
@@ -359,11 +363,13 @@ footer {
 .legal ul {
   list-style: none;
   text-align: center;
+  border: none;
 }
 
 .legal li {
   display: inline;
   padding: 0 40px;
+  border: none;
 }
 
 #legal1,
