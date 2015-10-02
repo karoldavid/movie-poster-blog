@@ -34,7 +34,7 @@ img {
 
 header {
     width: 100%;
-    height: 50px;
+    height: 70px;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -58,8 +58,7 @@ header {
 #logo {
     margin: 0;
     padding: 0;
-    width: 50px;
-    max-width: 50px;
+    max-width: 70px;
     height: auto;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -69,17 +68,17 @@ header {
 }
 
 header.smaller {
-    height: 30px;
+    height: 50px;
     opacity: 0.7;
 }
 
 header.smaller img#logo {
-    width: 30px;
+    max-width: 50px;
     height: auto;
     padding-right: 20px;
 }
 
-.header-social {
+#headerSocial {
     display: none;
 }
 
@@ -93,6 +92,10 @@ header.smaller img#logo {
     display: inline;
     margin: 0 10px;
     padding: 0 5px;
+}
+
+#headerSearch {
+  display: none;
 }
 
 /**
@@ -162,6 +165,34 @@ main {
  */
 
 hero {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
     height: auto;
     -webkit-background-size: cover;
