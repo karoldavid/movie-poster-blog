@@ -1,4 +1,28 @@
+/**
+ * @file app.js
+ * @version 0.1 2015
+ * @author Karol Zyskowski
+ * @email k.zysk@zoho.com
+ * Please read the README.md file for more information about the Polish Movie Poster Gallery
+ * Here is a link to the live version:
+ * {@link http://karoldavid.github.io/movie-poster-blog/ GitHub}
+ * Here is a link to the Github repository:
+ * {@link http://github.com/karoldavid/movie-poster-blog.git/ GitHub}
+ */
+
+/**
+ * @descripion
+ * The file app.js provides the funcionality to create poster objects and binds them
+ * to the view and to the search bar. It updates any changes to the data via
+ * knockoutJS Model-View-View Model pattern (MVVM) instantly.
+ */
+
+/**
+ * Wrapper function
+ * @param {object} posters - poster data
+ */
 $(function(posters) {
+    "use strict";
 
     var initialPosters = posters;
 
@@ -56,23 +80,29 @@ $(function(posters) {
 
     };
 
-    var ViewModel = function() {
+    /**
+     * Builds, sorts and searchs and poster list
+     * Synchronizes the poster galley view with the the searchbar
+     * @contructor ViewModel
+     */
+    var MyViewModel = function() {
 
         var self = this;
 
+        // search query the user enters in the header of the main page
         self.query = ko.observable("");
 
-        // Build poster list
+        // builds poster list
         self.posterList = ko.observableArray(ko.utils.arrayMap(initialPosters, function(posterItem) {
             return new Poster(posterItem);
         }));
 
-        // Sort poster list by name property
+        // sorts poster list by name property
         self.posterList().sort(function(left, right) {
             return left.title_en === right.title_en ? 0 : (left.title_en < right.title_en ? -1 : 1);
         });
 
-        //Filter poster list and return search result
+        // filters poster list and returns search result
         self.searchResults = ko.computed(function() {
             var search = self.query().toLowerCase();
             return ko.utils.arrayFilter(self.posterList(), function(poster) {
@@ -81,7 +111,7 @@ $(function(posters) {
         });
     };
 
-    ko.applyBindings(new ViewModel());
+    var viewModel = new MyViewModel();
+
+    ko.applyBindings(viewModel);
 }(posters.posters));
-
-
