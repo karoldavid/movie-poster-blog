@@ -11,14 +11,11 @@
     <meta itemprop="image" content="images/favicon.png">
     <meta name="mobile-web-app-capable" content="yes">
     <meta id="theme-color" name="theme-color" content="#307699">
-
     <base target="_blank">
-
     <title>Polish Movie Posters</title>
-
     <link rel="icon" sizes="192x192" href="favicon.png">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300&#038;ver=4.1"> -->
-    <!-- <link rel="stylesheet" href="src/css/normalize.css"> -->
+    <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="dist/fonts/LatoLatin/LatoLatinLight-Regular.css">
     <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
     <!-- <link rel="stylesheet" href="src/css/style.css"> -->
@@ -28,84 +25,80 @@
   <body>
 
     <header>
-      <div class="header-inner">
-        <img id="logo" src="dist/images/logo.svg">
-        <form id="headerSearch">
-            <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
-        </form>
-        <ul id="headerSocial" class="header-social">
-          <li><a class="zocial-email" href="mailto:info@polish-movie-poster.de?subject=I Love Polish Movie Posters"></a></li>
-        </ul>
-      </div>
+        <div class="header-inner">
+            <img id="logo" src="dist/images/logo.svg">
+            <form id="headerSearch">
+                <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
+            </form>
+            <ul id="headerSocial" class="header-social">
+                <li><a class="zocial-email" href="mailto:info@polish-movie-poster.de?subject=I Love Polish Movie Posters"></a></li>
+            </ul>
+        </div>
     </header>
-      <hero class="title">
+
+    <hero class="title">
         <h1>Polish Movie Posters</h1>
         <h2>1947 - 1989</h2>
-      </hero>
+    </hero>
 
-     <div class="flex-container">
-      <main>
-
-        <section>
-          <lead>
-            <figcaption>&copy; Ryszard Podkalicki</figcaption>
-              <h2>Genuine</h2>
-              <h3><span data-bind="text: posterList().length"></span> Original Polish Masterpieces</h3>
-              <h4>Rare &#8226; Out-Of-Print &#8226; Mostly from the Socialist Time</h4>
-              <p>Discover Photographs of the Original Movie Poster Collection - dating from 1947 to 1989. Created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider and others. The movie posters have been crafted for the first screening of international and Polish movies in Polish cinemas.</p>
-          </lead>
-        </section>
-
-        <section class="gallery">
-          <article>
-            <ul data-bind="template: {name: 'posters', foreach: searchResults}"></ul>
-          </article>
-        </section>
-
-      </main>
+    <div class="flex-container">
+        <main>
+            <section>
+                <lead>
+                    <figcaption>&copy; Ryszard Podkalicki</figcaption>
+                    <h2>Genuine</h2>
+                    <h3><span data-bind="text: posterList().length"></span> Original Polish Masterpieces</h3>
+                    <h4>Rare &#8226; Out-Of-Print &#8226; Mostly from the Socialist Time</h4>
+                    <p>Discover Photographs of the Original Movie Poster Collection - dating from 1947 to 1989. Created by well-known Polish Artists such as Andrzej Pagowski, Wieslaw Walkuski, Jakub Erol, Lech Majewski, Eugeniusz Skorwider and others. The movie posters have been crafted for the first screening of international and Polish movies in Polish cinemas.</p>
+                </lead>
+            </section>
+            <section class="gallery">
+                <article>
+                    <ul data-bind="template: {name: 'posters', foreach: searchResults}"></ul>
+                </article>
+            </section>
+        </main>
     </div>
 
     <footer>
-      <div class="legal">
-        <ul>
-          <li id="disclaimer"><a>DISCLAIMER</a></li>
-          <li id="imprint"><a>IMPRINT</a></li>
-        </ul>
-        <div id="legal1">
-          <p>Throughout our site you will find links to external websites.
-          Although we make every effort to ensure these links are accurate,
-          up to date and relevant, we cannot take responsibility
-          for pages maintained by external providers.</p>
+        <div class="legal">
+            <ul>
+                <li id="disclaimer"><a>DISCLAIMER</a></li>
+                <li id="imprint"><a>IMPRINT</a></li>
+            </ul>
+            <div id="legal1">
+                <p>Throughout our site you will find links to external websites.
+                Although we make every effort to ensure these links are accurate,
+                up to date and relevant, we cannot take responsibility
+                for pages maintained by external providers.</p>
+            </div>
+            <div id="legal2">
+                <p>Responsible for the website:<br><br>
+                Ryszard Podkalicki<br><br>
+                info@polish-movie-poster.de<br>
+                +49 - 30 754 420 34<br><br>
+                c/o Henryk Podkalicki<br>
+                Kołłątaja 19<br>
+                48-130 Kietrz PL<br><br>
+                All Movie Poster Pictures taken by R. Podkalicki</p>
+            </div>
         </div>
-        <div id="legal2">
-          <p>Responsible for the website:<br><br>
-          Ryszard Podkalicki<br><br>
-          info@polish-movie-poster.de<br>
-          +49 - 30 754 420 34<br><br>
-          c/o Henryk Podkalicki<br>
-          Kołłątaja 19<br>
-          48-130 Kietrz PL<br><br>
-          All Movie Poster Pictures taken by R. Podkalicki
-          </p>
+        <div class="footerSocial">
+            <ul>
+                <li class="zocial-email"><a href="mailto:k.zysk@zoho.com?subject=I Love Polish Movie Posters">email</a></li>
+                <li class="zocial-github"><a href="https://github.com/karoldavid?tab=repositories">github</a></li>
+                <li class="zocial-twitter"><a href="https://twitter.com/karoldawid">twitter</a></li>
+            </ul>
         </div>
-      </div>
-      <div class="footerSocial">
-        <ul>
-          <li class="zocial-email"><a href="mailto:k.zysk@zoho.com?subject=I Love Polish Movie Posters">email</a></li>
-          <li class="zocial-github"><a href="https://github.com/karoldavid?tab=repositories">github</a></li>
-          <li class="zocial-twitter"><a href="https://twitter.com/karoldawid">twitter</a></li>
-        </ul>
-      </div>
-      <p id="credentials">Idea & Programming by Karol Zyskowski<br>&copy; <script>document.write(new Date().getFullYear())</script></p>
+        <p id="credentials">Idea & Programming by Karol Zyskowski<br>&copy; <script>document.write(new Date().getFullYear())</script></p>
     </footer>
-    <!--<script src="js/build/production.min.js"></script>-->
 
-    <!-- Template for search results-->
+    <!-- template for search results-->
     <script type="text/html" id="result">
       <li data-bind="text: title_en, css: { selected: $data == $root.chosenPosterId() }, click: $root.goToPoster"></li>
     </script>
 
-    <!-- Template for posters -->
+    <!-- template for posters -->
     <script type="text/html" id="posters">
       <li>
         <figure>
@@ -125,26 +118,33 @@
     <script src="src/js/app/movieposterBuilder.js"></script>
     <script src="src/js/effects/lazyLoad.js"></script>
     <script src="src/js/effects/classie.js"></script>
-    <!-- <script src="dist/js/production.js"></script>-->
+    <!-- <script src="dist/js/production.js"></script> -->
+    <!-- <script src="js/build/production.min.js"></script> -->
     <script>
 
       function init() {
 
+        // lazy load all gallery images
         $("img.lazy").lazyload({ effect : "fadeIn" });
 
+        // add logo to header after initial page load
         $("#logo").addClass("cmn-t-pulse");
 
+        // shrink header and add searchbar and email icon to header on scroll
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
                 shrinkOn = 300,
                 header = document.querySelector("header");
             if (distanceY > shrinkOn) {
+            	// shrink header on scroll
                 classie.add(header,"smaller");
+                // add searchbar and email icon to header on scroll
                 document.getElementById("headerSocial").style.display = 'block';
                 document.getElementById("headerSearch").style.display = 'block';
             } else {
                 if (classie.has(header,"smaller")) {
                     classie.remove(header,"smaller");
+                    // remove searchbar and email icon from header on scroll
                     document.getElementById("headerSocial").style.display = 'none';
                     document.getElementById("headerSearch").style.display = 'none';
                 }
@@ -154,7 +154,7 @@
 
       window.onload = init;
 
-      // Toggle disclaimer and contact text in footer
+      // toggle disclaimer and contact text in footer
       var disclaimerElem = document.querySelector('#disclaimer');
       var contactElem = document.querySelector('#imprint');
 
@@ -177,6 +177,5 @@
       });
 
     </script>
-
   </body>
 </html>
