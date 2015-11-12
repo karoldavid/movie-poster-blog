@@ -500,9 +500,9 @@ input::-webkit-input-placeholder {
 
 @media only screen and (min-width: 801px) {
     hero {
-      width: 100%;
+      max-width: 100%;
       height: auto;
-      background: url(../images/banner/large/camera-1600_large_1x.jpeg) no-repeat center center;
+      background: url('../images/banner/large/camera-1600_large_1x.jpeg') no-repeat center center;
       background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/large/camera-1600_large_1x.jpeg');
       background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/large/camera-1600_large_1x.jpeg');
       -webkit-background-size: cover;
@@ -526,9 +526,9 @@ input::-webkit-input-placeholder {
 
 @media only screen and (min-width: 701px) and (max-width:800px) {
     hero {
-      width: 100%;
+      max-width: 100%;
       height: auto;
-      background: url(../images/banner/medium/camera-800_medium_1x.jpeg) no-repeat center center;
+      background: url('../images/banner/medium/camera-800_medium_1x.jpeg') no-repeat center center;
       background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/medium/camera-800_medium_1x.jpeg');
       background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/medium/camera-800_medium_1x.jpeg');
       -webkit-background-size: cover;
@@ -549,9 +549,9 @@ input::-webkit-input-placeholder {
 /* Portrait */
 @media only screen and (max-width: 700px) and (orientation: portrait) {
     hero {
-        width: 100%;
+        max-width: 100%;
         height: auto;
-        background: url(../images/banner/small/camera-400_portrait-small_1x.jpeg) no-repeat center center;
+        background: url('../images/banner/small/camera-400_portrait-small_1x.jpeg') no-repeat center center;
         background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-400_portrait-small_1x.jpeg');
         background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-400_portrait-small_1x.jpeg');
         -webkit-background-size: cover;
@@ -591,9 +591,9 @@ input::-webkit-input-placeholder {
 /* Landscape */
 @media only screen and (max-width: 700px) and (orientation: landscape) {
     hero {
-      width: 100%;
+      max-width: 100%;
       height: auto;
-      background: url(../images/banner/small/camera-700_landscape-small_1x.jpeg) no-repeat center center;
+      background: url('../images/banner/small/camera-700_landscape-small_1x.jpeg') no-repeat center center;
       background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/banner/small/camera-700_landscape-small_1x.jpeg');
       background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-700_landscape-small_1x.jpeg');
       -webkit-background-size: cover;
@@ -620,6 +620,38 @@ input::-webkit-input-placeholder {
         display: block;
         padding: 20px 0;
     }
+}
+
+@media only screen and (max-width: 700px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (max-width: 700px) and (orientation: portrait) and (min-moz-device-pixel-ratio: 1.5),
+ only screen and (max-width: 700px) and (orientation: portrait) and (min-resolution: 240dpi) {
+  hero {
+      max-width: 100%;
+      height: auto;
+      background: url('../images/banner/small/camera-400_portrait-small_2x.jpeg') no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/banner/small/camera-400_portrait-small_2x.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-400_portrait-small_2x.jpeg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (max-width: 700px) and (orientation: landscape) and (min-moz-device-pixel-ratio: 1.5),
+ only screen and (max-width: 700px) and (orientation: landscape) and (min-resolution: 240dpi) {
+  hero {
+      max-width: 100%;
+      height: auto;
+      background: url('../images/banner/small/camera-700_landscape-small_2x.jpeg') no-repeat center center;
+      background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/banner/small/camera-700_landscape-small_2x.jpeg');
+      background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-700_landscape-small_2x.jpeg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
 }
 
 /* ============================================================
