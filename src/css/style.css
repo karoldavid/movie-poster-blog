@@ -592,7 +592,7 @@ input::-webkit-input-placeholder {
 @media only screen and (max-width: 700px) and (orientation: landscape) {
     hero {
       max-width: 100%;
-      height: auto;
+      min-height: 360px;
       background: url('../images/banner/small/camera-700_landscape-small_1x.jpeg') no-repeat center center;
       background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/banner/small/camera-700_landscape-small_1x.jpeg');
       background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-700_landscape-small_1x.jpeg');
@@ -643,7 +643,7 @@ input::-webkit-input-placeholder {
  only screen and (max-width: 700px) and (orientation: landscape) and (min-resolution: 240dpi) {
   hero {
       max-width: 100%;
-      height: auto;
+      min-height: 360px;
       background: url('../images/banner/small/camera-700_landscape-small_2x.jpeg') no-repeat center center;
       background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url('../images/banner/small/camera-700_landscape-small_2x.jpeg');
       background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/small/camera-700_landscape-small_2x.jpeg');
