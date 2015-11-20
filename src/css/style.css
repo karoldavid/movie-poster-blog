@@ -622,6 +622,27 @@ input::-webkit-input-placeholder {
     }
 }
 
+/**
+ * Retina displays
+ *
+ */
+
+@media only screen and (min-width: 801px) and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (min-width: 801px) and (min-moz-device-pixel-ratio: 1.5),
+ only screen and (min-width: 801px) and (min-resolution: 240dpi) {
+    hero {
+    	max-width: 100%;
+        height: auto;
+        background: url('../images/banner/large/camera-1600_large_2x.jpeg') no-repeat center center;
+        background-image: -moz-linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/large/camera-1600_large_2x.jpeg');
+        background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('../images/banner/large/camera-1600_large_2x.jpeg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
 @media only screen and (max-width: 700px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5),
  only screen and (max-width: 700px) and (orientation: portrait) and (min-moz-device-pixel-ratio: 1.5),
  only screen and (max-width: 700px) and (orientation: portrait) and (min-resolution: 240dpi) {
