@@ -26,7 +26,7 @@
 
     <header>
         <div class="header-inner">
-            <img id="logo" src="dist/images/logo.svg">
+           <img id="logo" x="0" y="0" height="75px" width="75px" src="dist/images/logo.svg">
             <form id="headerSearch">
                 <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
             </form>
@@ -120,7 +120,7 @@
     <script src="dist/js/production.js"></script> -->
     <script src="dist/js/production.min.js"></script>
     <script>
-
+      $(document).ready(function(){
       function init() {
 
         // lazy load all gallery images
@@ -128,6 +128,9 @@
 
         // add logo to header after initial page load
         $("#logo").addClass("cmn-t-pulse");
+
+      //  var logo = document.getElementById("logo");
+     // logo.className = "cmn-t-pulse";
 
         // shrink header and add searchbar and email icon to header on scroll
         window.addEventListener('scroll', function(e){
@@ -174,7 +177,7 @@
         elem2.style.display = ((elem2.style.display!='none') ? 'none' : 'block');
         e.stopPropagation();
       });
-
+      });
     </script>
   </body>
 </html>
