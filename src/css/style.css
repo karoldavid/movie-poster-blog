@@ -400,10 +400,17 @@ footer {
   border: none;
 }
 
-#legal1,
-#legal2 {
-  padding: 1em 15em;
+.disclaimer-text,
+.imprint-text {
   display: none;
+}
+
+.legal p {
+  text-align: left;
+  line-height: 18px;
+  margin-bottom 18px;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .legal a:hover {

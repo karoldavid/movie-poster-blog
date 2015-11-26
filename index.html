@@ -26,7 +26,8 @@
 
     <header>
         <div class="header-inner">
-           <img id="logo" x="0" y="0" height="75px" width="75px" src="dist/images/logo.svg"><title>Gray bumping Logo Heart</title></img>
+           <img id="logo" x="0" y="0" height="75px" width="75px" src="dist/images/logo.svg">
+           <!--<title>Gray bumping Logo Heart</title></img>-->
             <form id="headerSearch">
                 <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
             </form>
@@ -66,22 +67,17 @@
                 <li id="disclaimer"><a>DISCLAIMER</a></li>
                 <li id="imprint"><a>IMPRINT</a></li>
             </ul>
-            <div id="legal1">
-                <p>Throughout our site you will find links to external websites.
+        <section class="disclaimer-text">
+            <p>Throughout our site you will find links to external websites.
                 Although we make every effort to ensure these links are accurate,
                 up to date and relevant, we cannot take responsibility
                 for pages maintained by external providers.</p>
-            </div>
-            <div id="legal2">
-                <p>Responsible for the website:<br><br>
-                Ryszard Podkalicki<br><br>
-                info@polish-movie-poster.de<br>
-                +49 - 30 754 420 34<br><br>
-                c/o Henryk Podkalicki<br>
-                Kołłątaja 19<br>
-                48-130 Kietrz PL<br><br>
-                All Movie Poster Pictures taken by R. Podkalicki</p>
-            </div>
+        </section>
+        <section class="imprint-text">
+            <p>info@polish-movie-poster.de | +49 - 30 754 420 34 | c/o Henryk Podkalicki | Kołłątaja 19 | 48-130 Kietrz PL<br>
+            All Movie Poster Pictures taken by R. Podkalicki | Responsible for the website: Ryszard Podkalicki</p>
+        </section>
+
         </div>
         <div class="footerSocial">
             <ul>
@@ -161,23 +157,25 @@
       var contactElem = document.querySelector('#imprint');
 
       disclaimerElem.addEventListener('click', function(e) {
-        var elem1 = document.getElementById('legal1'),
-            elem2 = document.getElementById('legal2');
+        var disclaimerTextElem = document.getElementsByClassName('disclaimer-text')[0],
+            imprintTextElem = document.getElementsByClassName('imprint-text')[0];
 
-        elem2.style.display = 'none';
-        elem1.style.display = ((elem1.style.display!='none') ? 'none' : 'block');
+        imprintTextElem.style.display = 'none';
+        disclaimerTextElem.style.display = ((disclaimerTextElem.style.display !== 'none' && disclaimerTextElem.style.display !== '') ? 'none' : 'block');
         e.stopPropagation();
       });
 
       contactElem.addEventListener('click', function(e) {
-        var elem1 = document.getElementById('legal1'),
-            elem2 = document.getElementById('legal2');
+        var disclaimerTextElem = document.getElementsByClassName('disclaimer-text')[0],
+            imprintTextElem = document.getElementsByClassName('imprint-text')[0];
 
-        elem1.style.display = 'none';
-        elem2.style.display = ((elem2.style.display!='none') ? 'none' : 'block');
+        disclaimerTextElem.style.display = 'none';
+        imprintTextElem.style.display = ((imprintTextElem.style.display!='none' && imprintTextElem.style.display !== '') ? 'none' : 'block');
         e.stopPropagation();
       });
+
       });
+
     </script>
   </body>
 </html>
