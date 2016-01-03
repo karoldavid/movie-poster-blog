@@ -24,17 +24,15 @@
 
   <body>
 
-    <header>
-        <div class="header-inner">
-           <img id="logo" x="0" y="0" height="75px" width="75px" src="dist/images/logo.svg">
-           <!--<title>Gray bumping Logo Heart</title></img>-->
-            <form id="headerSearch">
-                <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
-            </form>
-            <ul id="headerSocial" class="header-social">
-                <li><a class="zocial-email" href="mailto:info@polish-movie-poster.de?subject=I Love Polish Movie Posters" title="email info@polish-movie-poster.de"></a></li>
-            </ul>
-        </div>
+    <header class="tete">
+        <img id="logo" x="0" y="0" height="75px" width="75px" src="dist/images/logo.svg">
+        <!--<title>Gray bumping Logo Heart</title></img>-->
+        <form id="headerSearch">
+            <input placeholder="Search…" type="search" name="q" data-bind="textInput: query" autocomplete="off">
+        </form>
+        <ul id="headerSocial" class="header-social">
+            <li><a class="zocial-email" href="mailto:info@polish-movie-poster.de?subject=I Love Polish Movie Posters" title="email info@polish-movie-poster.de"></a></li>
+        </ul>
     </header>
 
     <hero class="title">
@@ -67,13 +65,13 @@
                 <li id="disclaimer"><a>DISCLAIMER</a></li>
                 <li id="imprint"><a>IMPRINT</a></li>
             </ul>
-        <section class="disclaimer-text">
+        <section class="disclaimer-text ease">
             <p>Throughout our site you will find links to external websites.
                 Although we make every effort to ensure these links are accurate,
                 up to date and relevant, we cannot take responsibility
                 for pages maintained by external providers.</p>
         </section>
-        <section class="imprint-text">
+        <section class="imprint-text ease">
             <p>info@polish-movie-poster.de | +49 - 30 754 420 34 | c/o Henryk Podkalicki | Kołłątaja 19 | 48-130 Kietrz PL<br>
             All Movie Poster Pictures taken by R. Podkalicki | Responsible for the website: Ryszard Podkalicki</p>
         </section>
@@ -116,66 +114,69 @@
     <script src="dist/js/production.js"></script> -->
     <script src="dist/js/production.min.js"></script>
     <script>
-      $(document).ready(function(){
-      function init() {
+        $(document).ready(function(){
+            function init() {
 
-        // lazy load all gallery images
-        $("img.lazy").lazyload({ effect : "fadeIn" });
+                // lazy load all gallery images
+                $("img.lazy").lazyload({ effect : "fadeIn" });
 
-        // add logo to header after initial page load
-        $("#logo").addClass("cmn-t-pulse");
+                // add logo to header after initial page load
+                $("#logo").addClass("cmn-t-pulse");
 
-      //  var logo = document.getElementById("logo");
-     // logo.className = "cmn-t-pulse";
+                //  var logo = document.getElementById("logo");
+                // logo.className = "cmn-t-pulse";
 
-        // shrink header and add searchbar and email icon to header on scroll
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-            	// shrink header on scroll
-                classie.add(header,"smaller");
-                // add searchbar and email icon to header on scroll
-                document.getElementById("headerSocial").style.display = 'block';
-                document.getElementById("headerSearch").style.display = 'block';
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                    // remove searchbar and email icon from header on scroll
-                    document.getElementById("headerSocial").style.display = 'none';
-                    document.getElementById("headerSearch").style.display = 'none';
-                }
+                // shrink header and add searchbar and email icon to header on scroll
+                window.addEventListener('scroll', function(e){
+                    var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 300,
+                    header = document.querySelector("header");
+                    if (distanceY > shrinkOn) {
+                	   // shrink header on scroll
+                        classie.add(header,"smaller");
+                        // add searchbar and email icon to header on scroll
+                        document.getElementById("headerSocial").style.display = 'block';
+                        document.getElementById("headerSearch").style.display = 'block';
+                    } else {
+                        if (classie.has(header,"smaller")) {
+                            classie.remove(header,"smaller");
+                            // remove searchbar and email icon from header on scroll
+                            document.getElementById("headerSocial").style.display = 'none';
+                            document.getElementById("headerSearch").style.display = 'none';
+                        }
+                    }
+                });
             }
+
+            window.onload = init;
+
+            // toggle disclaimer and contact text in footer
+            var disclaimerElem = document.querySelector('#disclaimer');
+            var contactElem = document.querySelector('#imprint');
+
+            disclaimerElem.addEventListener('click', function(e) {
+                var disclaimerTextElem = document.getElementsByClassName('disclaimer-text')[0],
+                    imprintTextElem = document.getElementsByClassName('imprint-text')[0];
+
+                imprintTextElem.style.display = 'none';
+                disclaimerTextElem.style.display = ((disclaimerTextElem.style.display !== 'none' && disclaimerTextElem.style.display !== '') ? 'none' : 'block');
+                e.stopPropagation();
+            });
+
+            contactElem.addEventListener('click', function(e) {
+                var disclaimerTextElem = document.getElementsByClassName('disclaimer-text')[0],
+                imprintTextElem = document.getElementsByClassName('imprint-text')[0];
+
+                disclaimerTextElem.style.display = 'none';
+                imprintTextElem.style.display = ((imprintTextElem.style.display!='none' && imprintTextElem.style.display !== '') ? 'none' : 'block');
+                e.stopPropagation();
+            });
+
         });
-      }
-
-      window.onload = init;
-
-      // toggle disclaimer and contact text in footer
-      var disclaimerElem = document.querySelector('#disclaimer');
-      var contactElem = document.querySelector('#imprint');
-
-      disclaimerElem.addEventListener('click', function(e) {
-        var disclaimerTextElem = document.getElementsByClassName('disclaimer-text')[0],
-            imprintTextElem = document.getElementsByClassName('imprint-text')[0];
-
-        imprintTextElem.style.display = 'none';
-        disclaimerTextElem.style.display = ((disclaimerTextElem.style.display !== 'none' && disclaimerTextElem.style.display !== '') ? 'none' : 'block');
-        e.stopPropagation();
-      });
-
-      contactElem.addEventListener('click', function(e) {
-        var disclaimerTextElem = document.getElementsByClassName('disclaimer-text')[0],
-            imprintTextElem = document.getElementsByClassName('imprint-text')[0];
-
-        disclaimerTextElem.style.display = 'none';
-        imprintTextElem.style.display = ((imprintTextElem.style.display!='none' && imprintTextElem.style.display !== '') ? 'none' : 'block');
-        e.stopPropagation();
-      });
-
-      });
 
     </script>
+    <script type='text/javascript' id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.2.10.1.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
   </body>
 </html>
