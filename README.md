@@ -1,16 +1,14 @@
 # Polish Movie Poster Gallery
 
-### Here is a link to the live version:
+Here is a link to the live version: http://karoldavid.github.io/movie-poster-blog/
 
-http://karoldavid.github.io/movie-poster-blog/
-
-#### Description
+### Description
 
 109 Original Polish Movie Posters mostly from the Socialist Time 
 
 ### Features
 
-- live search the data set by entering key words into the searchbar
+Live search the data set by entering key words into the searchbar.
 
 ### Installation
 
@@ -28,11 +26,8 @@ http://karoldavid.github.io/movie-poster-blog/
 
 ### Build Tools
 
-* https://developers.google.com/maps/documentation/streetview/
 * http://gruntjs.com/
 
-### PSI Scores
+### Questions
 
-#### Questions
-
-You can email me: k.zysk@zoho.com
+Email me at k.zysk@zoho.com
