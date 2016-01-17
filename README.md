@@ -2,15 +2,15 @@
 
 Here is a link to the live version: http://karoldavid.github.io/movie-poster-blog/
 
-### Description
+## Description
 
 109 Original Polish Movie Posters mostly from the Socialist Time 
 
-### Features
+## Features
 
 Live search the data set by entering key words into the searchbar.
 
-### Installation
+## Installation
 
 * git clone https://github.com/karoldavid/movie-poster-blog.git
 * wget https://github.com/karoldavid/movie-poster-blog/archive/master.zip
@@ -20,14 +20,14 @@ Live search the data set by entering key words into the searchbar.
 * JavaScript
 * Desktop, Tablet, Mobile Phone
 
-### Frameworks
+## Frameworks
 
 * http://knockoutjs.com/
 
-### Build Tools
+## Build Tools
 
 * http://gruntjs.com/
 
-### Questions
+## Questions
 
 Email me at k.zysk@zoho.com
