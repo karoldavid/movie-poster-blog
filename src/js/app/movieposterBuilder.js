@@ -24,7 +24,21 @@
 $(function(posters) {
     "use strict";
 
-    var initialPosters = posters;
+    var posters = [],
+        viewModel;
+
+    function loadJSON(callback) {
+
+        var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+        xobj.open('GET', 'src/js/data/movieposterData.json', true);
+        xobj.onreadystatechange = function () {
+              if (xobj.readyState == 4 && xobj.status == "200") {
+                callback(xobj.responseText);
+              }
+        };
+        xobj.send(null);
+     }
 
     /*
     var elem = '<figure class="poster-entry">' +
@@ -81,8 +95,8 @@ $(function(posters) {
     };
 
     /**
-     * Builds, sorts and searchs and poster list
-     * Synchronizes the poster galley view with the the searchbar
+     * Build, sort and search and list
+     * Synchronize the poster gallery view with user input into searchbar
      * @contructor ViewModel
      */
     var MyViewModel = function() {
@@ -92,17 +106,17 @@ $(function(posters) {
         // search query the user enters in the header of the main page
         self.query = ko.observable("");
 
-        // builds poster list
-        self.posterList = ko.observableArray(ko.utils.arrayMap(initialPosters, function(posterItem) {
+        // build poster list
+        self.posterList = ko.observableArray(ko.utils.arrayMap(posters, function(posterItem) {
             return new Poster(posterItem);
         }));
 
-        // sorts poster list by name property
+        // sort poster list by name property
         self.posterList().sort(function(left, right) {
             return left.title_en === right.title_en ? 0 : (left.title_en < right.title_en ? -1 : 1);
         });
 
-        // filters poster list and returns search result
+        // filter poster list and return search result
         self.searchResults = ko.computed(function() {
             var search = self.query().toLowerCase();
             return ko.utils.arrayFilter(self.posterList(), function(poster) {
@@ -111,7 +125,11 @@ $(function(posters) {
         });
     };
 
-    var viewModel = new MyViewModel();
+    loadJSON(function(response) {
+        posters = JSON.parse(response);
 
-    ko.applyBindings(viewModel);
-}(posters.posters));
+        viewModel = new MyViewModel();
+        ko.applyBindings(viewModel);
+    });
+
+}());
