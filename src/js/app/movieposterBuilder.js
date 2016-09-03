@@ -127,7 +127,6 @@ $(function(posters) {
 
     loadJSON(function(response) {
         posters = JSON.parse(response);
-
         // initialize and activate Knockout
         viewModel = new MyViewModel();
         ko.applyBindings(viewModel);
